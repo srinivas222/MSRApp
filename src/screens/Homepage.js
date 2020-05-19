@@ -108,7 +108,7 @@ function Homepage(props) {
             <Text style={styles.tracking}>Tracking</Text>
           </View>
           <TouchableOpacity
-            onPress={() => props.navigation.navigate("HealthTracking")}
+            onPress={() => props.navigation.navigate("SadhakasHealthTracking")}
             style={styles.button5}>
             <Image
               source={require("../assets/images/healthtracking1.png")}
@@ -123,7 +123,7 @@ function Homepage(props) {
             <Text style={styles.interaction}>Interaction</Text>
           </View>
           <TouchableOpacity
-            onPress={() => props.navigation.navigate("Doctorsinteraction")}
+            onPress={() => props.navigation.navigate("Doctorssuggestion")}
             style={styles.button6} >
             <Image
               source={require("../assets/images/29264200fe74a640313b09043a6d0020.png")}

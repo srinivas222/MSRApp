@@ -96,7 +96,7 @@ function Activityinfomation(props) {
 
 
         <View style={styles.bottomTab}>
-          <CustomBottomBar />
+          <CustomBottomBar {...props}/>
         </View>
       </View>
 

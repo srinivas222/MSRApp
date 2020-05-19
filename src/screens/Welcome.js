@@ -20,21 +20,27 @@ function Welcome(props) {
         source={require("../assets/images/0.3_MSR_Introduction_Page5.png")}
         resizeMode="stretch"
         style={styles.image}
-        imageStyle={styles.image_imageStyle}
-      >
-        <Text style={styles.signUp}></Text>
+        imageStyle={styles.image_imageStyle} >
+        <Text style={styles.signUp}></Text> 
         <View style={styles.buttonRow}>
           <TouchableOpacity
             onPress={() => props.navigation.navigate("Registrationpage")}
             style={styles.button}
           >
-            <MaterialButtonWithVioletText1
+
+            <Text style={styles.materialButtonWithVioletText1}>Sign Up</Text>
+            {/* <MaterialButtonWithVioletText1
               style={styles.materialButtonWithVioletText1}
-            ></MaterialButtonWithVioletText1>
+            ></MaterialButtonWithVioletText1> */}
           </TouchableOpacity>
-          <MaterialButtonPrimary
+          <TouchableOpacity 
+          onPress={() => props.navigation.navigate("Login")}
+            style={styles.buttonLogin}>
+      <Text style={styles.materialButtonPrimary}>Login</Text>
+    </TouchableOpacity>
+          {/* <MaterialButtonPrimary
             style={styles.materialButtonPrimary}
-          ></MaterialButtonPrimary>
+          ></MaterialButtonPrimary> */}
         </View>
       </ImageBackground>
     </View>
@@ -61,15 +67,34 @@ const styles = StyleSheet.create({
     width: 109,
     height: 38
   },
+  
   materialButtonWithVioletText1: {
     width: 105,
-    height: 36
+    height: 36,
+    color: "rgba(128,0,0,1)",
+    backgroundColor: "rgba(255,255,255,1)",
+    borderColor: "#000000",
+    fontSize: 25,
+    fontFamily: "roboto-regular",
+    textAlign: "center",
+    borderRadius : 40
+  },
+  buttonLogin : {
+    width: 100,
+    height: 38,
+    marginLeft: 80,
   },
   materialButtonPrimary: {
     width: 104,
     height: 38,
-    marginLeft: 99,
-    marginTop: 3
+    //marginTop: 3,
+    color: "rgba(128,0,0,1)",
+    backgroundColor: "rgba(255,255,255,1)",
+    borderColor: "#000000",
+    textAlign: "center",
+    fontSize: 25,
+    fontFamily: "roboto-regular",
+    borderRadius : 40
   },
   buttonRow: {
     height: 41,

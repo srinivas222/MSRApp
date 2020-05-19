@@ -65,7 +65,7 @@ function Dietmenu(props) {
       </View>
 
       <View style={styles.customBottomTab}>
-        <CustomBottomBar />
+        <CustomBottomBar {...props}/>
       </View>
     </View>
   );

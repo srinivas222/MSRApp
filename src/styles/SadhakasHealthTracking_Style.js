@@ -607,8 +607,8 @@ const styles = StyleSheet.create({
     },
     rect2: {
       top: 620,
-      left: 20,
-      width: 330,
+      //left: 20,
+      width: 360,
       height: 60,
       backgroundColor: "rgba(230, 230, 230,1)",
       position: "absolute",

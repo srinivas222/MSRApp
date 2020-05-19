@@ -99,7 +99,7 @@ function Treatmentinfomation(props) {
           <MaterialMapView1 style={styles.materialMapView1}></MaterialMapView1>
           </View>
         <View style={styles.bottomTab}>
-          <CustomBottomBar />
+          <CustomBottomBar {...props}/>
         </View>
       </View>
 

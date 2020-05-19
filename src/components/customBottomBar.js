@@ -8,7 +8,7 @@ import {
     TouchableOpacity
 } from "react-native";
 
-const CustomBottomBar = ({navigation}) => {
+const CustomBottomBar = (props) => {
 
 
     return (
@@ -16,7 +16,7 @@ const CustomBottomBar = ({navigation}) => {
         <View style={styles.rect4}>
             <View style={styles.button1Row}>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("Homepage")}
+                    onPress={() => props.navigation.navigate("Homepage")}
                     style={styles.button1}
                 >
                     <Image
@@ -26,7 +26,7 @@ const CustomBottomBar = ({navigation}) => {
                     ></Image>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("ProfileScreen")}
+                    onPress={() => props.navigation.navigate("ProfileScreen")}
                     style={styles.button7}
                 >
                     <Image
@@ -36,7 +36,7 @@ const CustomBottomBar = ({navigation}) => {
                     ></Image>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("Activityinfomation")}
+                    onPress={() => props.navigation.navigate("Activityinfomation")}
                     style={styles.button2}
                 >
                     <Image
@@ -46,7 +46,7 @@ const CustomBottomBar = ({navigation}) => {
                     ></Image>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("TreatmentInfo")}
+                    onPress={() => props.navigation.navigate("TreatmentInfo")}
                     style={styles.button3}
                 >
                     <Image
@@ -56,7 +56,7 @@ const CustomBottomBar = ({navigation}) => {
                     ></Image>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("Dietmenu")}
+                    onPress={() => props.navigation.navigate("Dietmenu")}
                     style={styles.button4}
                 >
                     <Image
@@ -66,7 +66,7 @@ const CustomBottomBar = ({navigation}) => {
                     ></Image>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("SadhakasHealthTracking")}
+                    onPress={() => props.navigation.navigate("SadhakasHealthTracking")}
                     style={styles.button5}
                 >
                     <Image

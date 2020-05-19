@@ -8,10 +8,6 @@ import Activityinfomation from "./src/screens/Activityinfomation";
 import Cautiondeposite from "./src/screens/Cautiondeposite";
 import Dietmenu from "./src/screens/Dietmenu";
 import Doctorsinteraction from "./src/screens/Doctorsinteraction";
-import Doctorssuggestion from "./src/screens/Doctorssuggestion";
-import Doctorssuggestion1 from "./src/screens/Doctorssuggestion1";
-import DoctorsSuggestion2 from "./src/screens/DoctorsSuggestion2";
-//import Faq from "./src/screens/Faq";
 import Faq from "./src/screens/Faq1";
 import Faq2 from "./src/screens/Faq2";
 import Feedback from "./src/screens/Feedback";
@@ -32,33 +28,44 @@ import SadhakasHealthTrackingInfo from "./src/screens/SadhakasHealthTrackingInfo
 import MyDropdown from "./src/screens/MyDropdown";
 import SadhakasDoctorSuggestionInteraction from "./src/screens/SadhakasDocotorsSuggestionInformation";
 import CustomBottomBar from "./src/components/customBottomBar";
+import Doctorssuggestion from "./src/screens/Doctorssuggestion";
+
 
 const DrawerNavigation = createDrawerNavigator({
-  Faq: Faq,
-  Feedback: Feedback,
-  
-  TreatmentInfo: TreatmentInfo,
-  Dietmenu: Dietmenu,
+  Welcome: Welcome,
+  Login: Login,
+  Registrationpage: Registrationpage,
   Homepage: Homepage,
   Activityinfomation: Activityinfomation,
- 
-  SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,
-  Login: Login,
-  Welcome: Welcome,
+  TreatmentInfo: TreatmentInfo,
+  Dietmenu: Dietmenu,
   SadhakasHealthTracking : SadhakasHealthTracking,
-  Registrationpage: Registrationpage,
   SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
+  Doctorssuggestion : Doctorssuggestion,
+  SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,
+  Feedback: Feedback,
+  Faq: Faq,
+  Cautiondeposite: Cautiondeposite,
+  Newsfeed: Newsfeed,
+  
+  
+  
+  
+  Homepage: Homepage,
+  
+ 
+ 
+  
+  
+  
   MyDropdown : MyDropdown,
   Healthtrackinginfo3: Healthtrackinginfo3,
-  Homepage: Homepage,
+  
   Cautiondeposite: Cautiondeposite,
   
   Doctorsinteraction: Doctorsinteraction,
-  Doctorssuggestion: Doctorssuggestion,
-  Doctorssuggestion1: Doctorssuggestion1,
-  DoctorsSuggestion2: DoctorsSuggestion2,
-  //Faq: Faq,
-  //Faq1: Faq1,
+  
+  
   Faq2: Faq2,
   
   HealthTracking: HealthTracking,
@@ -68,10 +75,10 @@ const DrawerNavigation = createDrawerNavigator({
   Homepagemenu: Homepagemenu,
   Homepagenotification: Homepagenotification,
   
-  Newsfeed: Newsfeed,
+  
   
   CustomBottomBar : CustomBottomBar,
-  Untitled2: Untitled2,
+  
   
 });
 
@@ -80,18 +87,13 @@ const StackNavigation = createStackNavigator(
      DrawerNavigation: {
        screen: DrawerNavigation
      },
-    //Loginside : Loginside,
-    //LeftDrawer:LeftDrawer,
+    
     Activityinfomation: Activityinfomation,
     Cautiondeposite: Cautiondeposite,
     Dietmenu: Dietmenu,
     Doctorsinteraction: Doctorsinteraction,
-    Doctorssuggestion: Doctorssuggestion,
-    Doctorssuggestion1: Doctorssuggestion1,
-    DoctorsSuggestion2: DoctorsSuggestion2,
+    Doctorssuggestion : Doctorssuggestion,
     Faq: Faq,
-    //Faq1: Faq1,
-    //Faq2: Faq2,
     Feedback: Feedback,
     HealthTracking: HealthTracking,
     Healthtrackinginfo1: Healthtrackinginfo1,
@@ -103,13 +105,11 @@ const StackNavigation = createStackNavigator(
     Newsfeed: Newsfeed,
     Registrationpage: Registrationpage,
     TreatmentInfo: TreatmentInfo,
-    Untitled2: Untitled2,
     Welcome: Welcome,
     SadhakasHealthTracking : SadhakasHealthTracking,
     SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
     MyDropdown : MyDropdown,
-    SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,
-    CustomBottomBar : CustomBottomBar
+    SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction
   },
   {
     headerMode: "none",

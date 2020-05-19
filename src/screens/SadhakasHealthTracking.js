@@ -14,7 +14,7 @@ import { Center } from "@builderx/utils";
 import IoniconsIcon from "react-native-vector-icons/Ionicons";
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 import MaterialIconsIcon from "react-native-vector-icons/MaterialIcons";
-
+import CustomBottomBar from "../components/customBottomBar";
 import styles from "../styles/SadhakasHealthTracking_Style";
 import DropDownPicker from "../components/DropDownPicker";
 import BPDropdownPicker from "../components/BPDropdownPicker";
@@ -240,24 +240,22 @@ function SadhakasHealthTracking(props) {
                 <Text style={styles.back7}>Back</Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => props.navigation.navigate("Healthtrackinginfo1")}
-              style={styles.button7}
-            >
+            
               <TouchableOpacity
-                onPress={() => props.navigation.navigate("Healthtrackinginfo1")}
+                onPress={() => props.navigation.navigate("SadhakasHealthTrackingInfo")}
                 style={styles.button72}
               >
                 <View style={styles.rect3}>
                   <Text style={styles.confirm1}>Confirm</Text>
                 </View>
               </TouchableOpacity>
-            </TouchableOpacity>
+            
           </View>
         </View>
       </ScrollView>
       <View style={styles.rect2}>
-        <View style={styles.button123Row}>
+      <CustomBottomBar {...props}/>
+        {/* <View style={styles.button123Row}>
           <TouchableOpacity
             onPress={() => props.navigation.navigate("Homepage")}
             style={styles.button123}
@@ -308,7 +306,7 @@ function SadhakasHealthTracking(props) {
               style={styles.image6}
             ></Image>
           </TouchableOpacity>
-        </View>
+        </View> */}
       </View>
     </View>
   );

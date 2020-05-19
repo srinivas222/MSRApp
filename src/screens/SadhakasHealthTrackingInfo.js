@@ -214,7 +214,7 @@ function SadhakasHealthTrackingInfo(props) {
             </View>
             <View style = {styles.backandconfirmBlock}>
               <TouchableOpacity
-                onPress={() => props.navigation.navigate("Healthtrackinginfo1")}
+                onPress={() => props.navigation.navigate("SadhakasHealthTracking")}
                 style={styles.backbutton6}
               >
                 <View style={styles.backrect3}>
@@ -235,7 +235,7 @@ function SadhakasHealthTrackingInfo(props) {
         </View>
       </ScrollView>
 
-      <CustomBottomBar />
+      <CustomBottomBar {...props}/>
     </View>
   );
 }

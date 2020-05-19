@@ -117,7 +117,7 @@ function SadhakasDoctorSuggestionInteraction(props) {
         </View>
       </ScrollView>
 
-      <CustomBottomBar />
+      <CustomBottomBar {...props}/>
     </View>
   );
 

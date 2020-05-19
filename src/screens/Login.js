@@ -2,189 +2,137 @@ import React, { Component } from "react";
 import {
   StyleSheet,
   View,
+  StatusBar,
   Image,
   ImageBackground,
   Text,
-  TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  Button
 } from "react-native";
+import MaterialButtonWithVioletText1 from "../components/MaterialButtonWithVioletText1";
 import MaterialButtonPrimary from "../components/MaterialButtonPrimary";
-import MaterialButtonDark from "../components/MaterialButtonDark";
+import { TextInput } from "react-native-gesture-handler";
 
 function Login(props) {
   return (
     <View style={styles.container}>
-      <View style={styles.materialButtonPrimaryRow}>
-        <MaterialButtonPrimary
-          style={styles.materialButtonPrimary}
-        ></MaterialButtonPrimary>
-        <ImageBackground
-          source={require("../assets/images/iPhone_X-XS-11_Pro_–_1.png")}
-          resizeMode="contain"
-          style={styles.image3}
-          imageStyle={styles.image3_imageStyle}
-        >
-          <Text style={styles.loremIpsum2}>Manthena Satyanarayana Raju Arogyalayam</Text>
-          {/* <Text style={styles.arogyalayam}>Arogyalayam</Text> */}
-          <Image
-            source={require("../assets/images/logo.png")}
-            resizeMode="contain"
-            style={styles.image2}
-          ></Image>
-          <Text style={styles.userLogin}>User Login</Text>
-          <View style={styles.userIdRow}>
-            <TextInput
-              placeholder="User Id"
-              placeholderTextColor="rgba(70,31,0,1)"
-              style={styles.userId}
-            ></TextInput>
-            <TextInput
-              placeholder="PassWord"
-              placeholderTextColor="rgba(70,31,0,1)"
-              style={styles.passWord}
-            ></TextInput>
-          </View>
+      <StatusBar hidden={true}></StatusBar>
+      <ImageBackground
+        source={require("../assets/images/0.3_MSR_Introduction_Page5.png")}
+        resizeMode="stretch"
+        style={styles.image}
+        imageStyle={styles.image_imageStyle} >
+        <Text style={styles.signUp}></Text>
+        <View style={styles.buttonRow}>
+          <TextInput placeholder="User ID" style={styles.userId}></TextInput>
+          <TextInput placeholder="Password" style={styles.password}></TextInput>
+        </View>
+          {/* <TouchableOpacity
+            onPress={() => props.navigation.navigate("Registrationpage")}
+            style={styles.button}
+          > */}
+
+          {/* <Text style={styles.materialButtonWithVioletText1}>UserN</Text> */}
+          {/* <MaterialButtonWithVioletText1
+              style={styles.materialButtonWithVioletText1}
+            ></MaterialButtonWithVioletText1> 
+          </TouchableOpacity>*/}
+          <View>
           <TouchableOpacity
             onPress={() => props.navigation.navigate("Homepage")}
-            style={styles.button}
-          >
-            <MaterialButtonDark
-              text1="Login"
-              button1="Login"
-              style={styles.materialButtonDark}
-            ></MaterialButtonDark>
+            style={styles.buttonLogin}>
+            <Text style={styles.materialButtonPrimary}>Login</Text>
           </TouchableOpacity>
-          <View style={styles.loremIpsum3Row}>
-            <Text style={styles.loremIpsum3}></Text>
-            <Image
-              source={require("../assets/images/msrpic.png")}
-              resizeMode="contain"
-              style={styles.image4}
-            ></Image>
-          </View>
-        </ImageBackground>
-      </View>
+          {/* <MaterialButtonPrimary
+            style={styles.materialButtonPrimary}
+          ></MaterialButtonPrimary> */}
+        </View>
+      </ImageBackground>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    flexDirection: "row"
+    flex: 1
   },
-  materialButtonPrimary: {
-    width: 100,
-    height: 36,
-    marginTop: 145
+  image: {
+    flex: 1
   },
-  image3: {
-    width: 428,
-    height: 826,
-    marginLeft: 457
-  },
-  image3_imageStyle: {},
-  loremIpsum2: {
-    //width: 350,
-    //height: 28,
-    textAlign : "center",
-    color: "rgba(70,31,0,1)",
-    fontSize: 25,
-    fontFamily: "roboto-700",
-    marginTop: 20,
-    //marginLeft: 41
-  },
-  arogyalayam: {
-    width: 150,
-    height: 24,
-    color: "rgba(70,31,0,1)",
-    fontSize: 25,
-    fontFamily: "roboto-700",
-    marginTop: 6,
-    marginLeft: 141
-  },
-  image2: {
-    width: 180,
-    height: 180,
-    marginTop: 20,
-    marginLeft: 123
-  },
-  userLogin: {
-    width: 192,
-    height: 42,
-    color: "rgba(70,31,0,1)",
-    justifyContent: "space-between",
-    fontSize: 30,
-    fontFamily: "roboto-700",
-    marginTop: 24,
-    marginLeft: 133
-  },
-  userId: {                        
-    width: 85,
-    height: 50,
+  image_imageStyle: {},
+  signUp: {
+    width: 0,
+    height: 0,
     color: "#121212",
-    borderColor: "#000000",
-    borderWidth: 0,
-    borderBottomWidth: 2,
-    fontSize: 20,
     fontFamily: "roboto-regular",
-    textAlign : "center"
-  },
-  passWord: {
-    width: 110,
-    height: 50,
-    color: "#121212",
-    borderColor: "#000000",
-    borderWidth: 0,
-    borderBottomWidth: 2,
-    fontSize: 20,
-    fontFamily: "roboto-regular",
-    marginLeft: 140,
-    textAlign : "center"
-  },
-  userIdRow: {
-    height: 50,
-    flexDirection: "row",
-    marginTop: 31,
-    marginLeft: 44,
-    marginRight: 31
+    marginTop: 314,
+    marginLeft: 60
   },
   button: {
-    width: 158,
-    height: 38,
+    width: 109,
+    height: 38
+  },
+  userId : {
+     marginTop: 30,
+       marginLeft: 0,
+      width: 100,
+       height: 25,
+       borderColor: "rgba(70,31,0,1)",
+       fontSize: 25,
+       color: "#461F00",
+       borderWidth: 0,
+       borderBottomWidth: 5,
+       fontFamily: "roboto-700",
+       
+  },
+  password : {
     marginTop: 30,
-    marginLeft: 135
+       marginLeft: 85,
+      width: 120,
+       height: 25,
+       borderColor: "rgba(70,31,0,1)",
+       fontSize: 25,
+       color: "#461F00",
+       borderWidth: 0,
+       borderBottomWidth: 5,
+       fontFamily: "roboto-700",
   },
-  materialButtonDark: {
-    height: 45,
-    borderRadius: 31,
-    fontSize: 30,
-    fontFamily: "roboto-700",
-  },
-  loremIpsum3: {
-    color: "rgba(125,0,0,1)",
-    fontSize: 23,
+
+  materialButtonWithVioletText1: {
+    width: 105,
+    height: 36,
+    color: "rgba(128,0,0,1)",
+    backgroundColor: "rgba(255,255,255,1)",
+    borderColor: "#000000",
+    fontSize: 25,
     fontFamily: "roboto-regular",
-    marginTop: 149
+    textAlign: "center",
+    borderRadius: 40
   },
-  image4: {
-    width: 200,
-    height: 200,
-    marginLeft: 57
+  buttonLogin: {
+    width: 100,
+    height: 38,
+    marginLeft: 125,
+    top : 50
   },
-  loremIpsum3Row: {
-    height: 200,
+  materialButtonPrimary: {
+    width: 104,
+    height: 38,
+    //marginTop: 3,
+    color: "rgba(128,0,0,1)",
+    backgroundColor: "rgba(255,255,255,1)",
+    borderColor: "#000000",
+    textAlign: "center",
+    fontSize: 25,
+    fontFamily: "roboto-regular",
+    borderRadius: 40
+  },
+  buttonRow: {
+    height: 41,
     flexDirection: "row",
-    marginTop: 54,
-    marginLeft: 58,
-    marginRight: 113
-  },
-  materialButtonPrimaryRow: {
-    height: 826,
-    flexDirection: "row",
-    flex: 1,
-    marginRight: -25,
-    marginLeft: -585
+    marginTop: 16,
+    marginLeft: 30,
+    marginRight: 33
   }
 });
 
