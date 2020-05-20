@@ -56,12 +56,12 @@ function Doctorssuggestion(props) {
         <Picker
           selectedValue={doctorname}
           style={{ color: "white" }}
-          onValueChange={(itemValue, itemIndex) => setDoctorname(itemValue)}
+          onValueChange={(itemValue, itemIndex) => setDoctorName(itemValue)}
         >
           {myloop}
         </Picker>
       </View>
-      <View style={styles.problem}>
+      <View style={styles.problemBlock}>
         <Text style={styles.problem}>Problem :</Text>
         <View >
           <TextInput
@@ -93,6 +93,9 @@ function Doctorssuggestion(props) {
             <Text style={styles.confirm1Text}>Confirm</Text>
           </View>
         </TouchableOpacity>
+      </View>
+      <View style={styles.rect2}>
+      <CustomBottomBar {...props}/>
       </View>
     </View >
     

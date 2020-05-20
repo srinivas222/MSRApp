@@ -29,9 +29,11 @@ import MyDropdown from "./src/screens/MyDropdown";
 import SadhakasDoctorSuggestionInteraction from "./src/screens/SadhakasDocotorsSuggestionInformation";
 import CustomBottomBar from "./src/components/customBottomBar";
 import Doctorssuggestion from "./src/screens/Doctorssuggestion";
-
+import SadhakasInformation from "./src/screens/SadhakasInformation";
 
 const DrawerNavigation = createDrawerNavigator({
+  SadhakasInformation : SadhakasInformation,
+  Doctorssuggestion : Doctorssuggestion,
   Welcome: Welcome,
   Login: Login,
   Registrationpage: Registrationpage,
@@ -41,7 +43,7 @@ const DrawerNavigation = createDrawerNavigator({
   Dietmenu: Dietmenu,
   SadhakasHealthTracking : SadhakasHealthTracking,
   SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
-  Doctorssuggestion : Doctorssuggestion,
+  
   SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,
   Feedback: Feedback,
   Faq: Faq,
@@ -109,7 +111,8 @@ const StackNavigation = createStackNavigator(
     SadhakasHealthTracking : SadhakasHealthTracking,
     SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
     MyDropdown : MyDropdown,
-    SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction
+    SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,
+    SadhakasInformation : SadhakasInformation,
   },
   {
     headerMode: "none",
