@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
   image7: {
     top: 29,
     left: 0,
-    width: 365,
-    height: 374,
+    width: wp('100%') ,
+    height: hp('58.43%'),
     position: "absolute"
   },
   image7_imageStyle: {
@@ -27,25 +27,25 @@ const styles = StyleSheet.create({
   },
   breakfast: {
     
-    width: 127,
-    height: 27,
+    width: wp('35.27%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
-    fontSize: 25,
+    fontSize: 16,
     fontFamily: "roboto-700"
   },
   textInput2: {
     top: 40,
     //left: 36,
-    width: 313,
-    height: 43,
+    width: wp('86.94%'),
+    height: hp('6.71%'),
     color: "#121212",
     position: "absolute",
     borderColor: "rgba(248,244,244,1)",
     borderWidth: 0,
     borderBottomWidth: 2,
     fontFamily: "roboto-regular",
-    fontSize : 25
+    fontSize : 16
   },
   
   lunchBlock: {
@@ -54,66 +54,66 @@ const styles = StyleSheet.create({
   },
   lunch: {
     
-    width: 85,
-    height: 27,
+    width: wp('23.61%') ,
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
-    fontSize: 25,
+    fontSize: 16,
     fontFamily: "roboto-700"
   },
   textInput3: {
     top: 70,
     //left: 39,
-    width: 313,
-    height: 43,
+    width: wp('86.94%'),
+    height: hp('6.71%'),
     color: "#121212",
     position: "absolute",
     borderColor: "rgba(248,244,244,1)",
     borderWidth: 0,
     borderBottomWidth: 2,
     fontFamily: "roboto-regular",
-    fontSize: 25,
+    fontSize: 16,
   },
   dinnerBlock : {
     top: 270,
     left: 20
   },
   dinner: {
-    width: 84,
-    height: 27,
+    width: wp('23.33%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 16,
     fontFamily: "roboto-700",
     
   },
   textInput5: {
     top: 30,
-    width: 313,
-    height: 43,
+    width: wp('86.94%'),
+    height: hp('6.71%'),
     color: "#121212",
     borderColor: "rgba(248,244,244,1)",
     borderWidth: 0,
     borderBottomWidth: 2,
     fontFamily: "roboto-regular",
-    fontSize: 25,
+    fontSize: 16,
     //marginLeft: 40
   },
   group2: {
     top: 0,
     left: 27,
-    width: 138,
-    height: 49,
+    width: wp('38.33%'),
+    height: hp('7.65%'),
     position: "absolute"
   },
   rect3: {
-    width: 132,
-    height: 46,
+    width: wp('36.66%'),
+    height: hp('7.18%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40
   },
   diet: {
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 16,
     fontFamily: "roboto-700",
     marginTop: 10,
     marginLeft: 38
@@ -121,8 +121,8 @@ const styles = StyleSheet.create({
   image7Stack: {
     top: 78,
     left: 0,
-    width: 365,
-    height: 403,
+    width: wp('100%') ,
+    height: hp('62.96%'),
     position: "absolute"
   },
   icon2: {
@@ -131,31 +131,31 @@ const styles = StyleSheet.create({
     position: "absolute",
     color: "rgba(70,31,0,1)",
     fontSize: 100,
-    width: 91,
-    height: 107
+    width: wp('25.27%'),
+    height: hp('16.71%')
   },
   image7StackStack: {
     top: 0,
     left: 0,
-    width: 365,
-    height: 481,
+    width: wp('100%'),
+    height: hp('75.15%'),
     position: "absolute"
   },
   date: {
-    top: -70,
+    top: 0,
     left: 20,
-    width: 68,
-    height: 27,
+    width: wp('18.88%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
-    fontSize: 25,
+    fontSize: 16,
     fontFamily: "roboto-700"
   },
   textInput4: {
     top: 0,
     left: 0,
-    width: 135,
-    height: 43,
+    width: wp('37.5%'),
+    height: hp('6.71%'),
     color: "#121212",
     position: "absolute",
     borderColor: "rgba(248,244,244,1)",
@@ -165,35 +165,35 @@ const styles = StyleSheet.create({
   },
   icon3: {
     //top: 2,
-    //left: 30,
+    left: wp('8.333%'),
     position: "absolute",
     color: "rgba(248,244,244,1)",
-    fontSize: 40,
-    width: 21,
-    height: 43
+    fontSize: 16,
+    width: wp('5.83%'),
+    height: hp('6.71%')
   },
   textInput4Stack: {
     top: -30,
     left: 35,
-    width: 135,
-    height: 45,
+    width: wp('37.5%'),
+    height: hp('7.03%'),
     position: "absolute"
   },
   image7StackStackStack: {
-    width: 365,
-    height: 481,
+    width: wp('100%'),
+    height: hp('75.15%'),
     marginTop: 117,
     marginLeft: 1
   },
   group: {
-    width: 321,
-    height: 77,
+    width: wp('89.16%'),
+    height: hp('12.03%'),
     marginTop: -564,
     marginLeft: 27
   },
   rect2: {
-    width: 308,
-    height: 72,
+    width: wp('85.55%'),
+    height: hp('11.25%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40,
     borderColor: "#000000",
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontFamily: "roboto-700",
     top: 20,
-    left: 37
+    left: wp("13.888%")
   },
   
   // rect4: {

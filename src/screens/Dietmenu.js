@@ -12,6 +12,7 @@ import IoniconsIcon from "react-native-vector-icons/Ionicons";
 import styles from "../styles/DietMenu_style";
 import CustomBottomBar from "../components/customBottomBar";
 import DateTime from "../components/DateTime";
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 function Dietmenu(props) {
   return (
