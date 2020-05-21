@@ -28,18 +28,19 @@ function Homepage(props) {
       <View style={styles.rect1}>
         <View style={styles.button14Row}>
           <TouchableOpacity
-            onPress={() => props.navigation.navigate("Homepagemenu")}
+            //onPress={() => props.navigation.navigate("Homepagemenu")}
             style={styles.button14}
           >
+        <IoniconsIcon name="md-menu"  style={styles.icon4}/>
         
-            <IoniconsIcon name="md-menu"  style={styles.icon4}/>
             {/* <Icon name='menu'  /> */}
             
           </TouchableOpacity>
           <Text style={styles.home}>Home</Text>
           <View style={styles.group}>
+            
             <TouchableOpacity
-              onPress={() => props.navigation.navigate("Homepagenotification")}
+              //onPress={() => props.navigation.navigate("Homepagenotification")}
               style={styles.button13}>
               <MaterialIconsIcon
                 name="notifications-active"
@@ -136,12 +137,10 @@ function Homepage(props) {
         </View>
       </View>
       <View style = {styles.feedbackBlock}>
-        <Text style={styles.feedback}>Feedback</Text>
-        <View style={styles.button122Stack}>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("Feedback")}
-            style={styles.button122}
-          >
+        <View >
+          <TouchableOpacity style = {styles.button122}
+            onPress={() => props.navigation.navigate("Feedback")}>
+              <Text style={styles.feedback}>Feedback</Text>
             <MaterialIconsIcon
               name="feedback"
               style={styles.icon3}

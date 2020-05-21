@@ -32,18 +32,21 @@ import Doctorssuggestion from "./src/screens/Doctorssuggestion";
 import SadhakasInformation from "./src/screens/SadhakasInformation";
 
 const DrawerNavigation = createDrawerNavigator({
-  SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
+  Homepage: Homepage,
   Registrationpage: Registrationpage,
+  SadhakasHealthTracking : SadhakasHealthTracking,
+  SadhakasHealthTrackingInfo : SadhakasHealthTrackingInfo,
+ 
   SadhakasInformation : SadhakasInformation,
   Doctorssuggestion : Doctorssuggestion,
   Welcome: Welcome,
   Login: Login,
   
-  Homepage: Homepage,
-  Activityinfomation: Activityinfomation,
+  
+  Activityinfomation: Activityinfomation, 
   TreatmentInfo: TreatmentInfo,
   Dietmenu: Dietmenu,
-  SadhakasHealthTracking : SadhakasHealthTracking,
+  
   
   
   SadhakasDoctorSuggestionInteraction : SadhakasDoctorSuggestionInteraction,

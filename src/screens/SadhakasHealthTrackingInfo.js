@@ -207,7 +207,7 @@ function SadhakasHealthTrackingInfo(props) {
                 placeholderTextColor="rgba(70,31,0,1)"
                 style={styles.feedbacktextInput}
               ></TextInput>
-            </View>
+            </View> 
             <View style = {styles.agreeTandCBlock}>
               <MaterialCheckbox style={styles.materialCheckboxTandC}></MaterialCheckbox>
               <Text style={styles.suggestioniAgreeTc1}>I Agree T &amp; C</Text>
@@ -234,8 +234,9 @@ function SadhakasHealthTrackingInfo(props) {
 
         </View>
       </ScrollView>
-
+      <View style = {styles.bottomTab}>
       <CustomBottomBar {...props}/>
+      </View>
     </View>
   );
 }

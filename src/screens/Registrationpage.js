@@ -64,7 +64,7 @@ function Registrationpage(props) {
                 <TextInput placeholder="522616" style={styles.pinTextInput}></TextInput>
               </View>
               </View>
-
+ 
             </View>
             <View style={styles.emargencyBlock}>
               <Text style={styles.emergencyContact}>Emergency Contact :</Text>
@@ -97,7 +97,7 @@ function Registrationpage(props) {
               <TextInput placeholder="Confirm Password" style={styles.textInput12}></TextInput>
             </View>
             <View style={styles.attachProfilePhotoColumnRow}>
-              <Text style={styles.attachProfilePhoto}>Attach Profile Photo :</Text>
+              <Text style={styles.attachProfilePhoto}>* Attach Profile Photo :</Text>
               <View style={styles.group}>
                 <FontAwesomeIcon
                   name="cloud-upload"
@@ -108,7 +108,7 @@ function Registrationpage(props) {
             <View style={styles.agreeBlock}>
               <MaterialIconsIcon
                 name="radio-button-checked"
-                style={styles.icon3}
+                style={styles.icon3} 
               ></MaterialIconsIcon>
               <Text style={styles.iAgreeTc}>I Agree T &amp; C</Text>
             </View>

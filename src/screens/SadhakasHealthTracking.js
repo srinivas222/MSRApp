@@ -27,7 +27,7 @@ function SadhakasHealthTracking(props) {
   const [height, setHeight] = useState(2);
   const [weight, setWeight] = useState(2);
   var myloop = [];
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 300; i++) {
     myloop.push(
       <Picker.Item key={i} label={i.toString()} value={i} />
     );

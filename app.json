@@ -15,10 +15,12 @@
       "fallbackToCacheTimeout": 0
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.yourcompany.yourappname"
     },
     "android": {
       "package": "com.yourcompany.yourappname"
+
     }
   }
 }

@@ -39,16 +39,16 @@ const styles = StyleSheet.create({
     },
     sadhakas1: {
       color: "rgba(70,31,0,1)",
-      fontSize: 22,
+      fontSize: 20,
       fontFamily: "roboto-700",
-      marginTop: hp('1.09375%'),
+      marginTop: hp('2.79375%'),
       //marginLeft: 2,
       textAlign: "center",
       
     },
     scrollArea_contentContainerStyle: {
       width: wp('100%'),
-      height: 2000,
+      height: hp('292.5000%'),
       flexDirection: "column",
   
     },
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       dateTime: {
@@ -86,12 +86,12 @@ const styles = StyleSheet.create({
         height: hp('5.0000%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       textInput4: {
-        top: hp('-1.874%'),
-        left: wp('23.6111%'),
+        top: hp('-2.074%'),
+        left: wp('18.6111%'),
         width: wp('20.2777%'),
         height: 43,
         color: "#121212",
@@ -124,12 +124,12 @@ const styles = StyleSheet.create({
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       textInput2: {
-        top: hp('-1.5625%'),
-        left: wp('-18.0555%'),
+        top: hp('-2.0625%'),
+        left: wp('-22.0555%'),
         width: wp('55.5555%'),
         height: hp('6.2500%'),
         color: "#121212",
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       textInput2Stack: {
         top: hp('0.0%'),
@@ -157,12 +157,12 @@ const styles = StyleSheet.create({
         height: hp('5.0000%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       textInput3: {
-        top: hp('-1.875%'),
-        left: wp('70.8333%'),
+        top: hp('-2.075%'),
+        left: wp('65.8333%'),
         width: wp('20.2777%'),
         height: hp('6.2500%'),
         color: "#121212",
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       textInput5: {
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize: 20,
+        fontSize: 18,
       },
       icon4: {
         //flex : 1,
@@ -262,20 +262,20 @@ const styles = StyleSheet.create({
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       btdropdown1: {
         //flex: 1,
-        top: hp('4.6875%'),
-        left: wp('11.111%'),
+        top: hp('4.0875%'),
+        left: wp('0.111%'),
         width: wp('55.5555%'),
         height: hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
-          { scaleX: 1.5 }, 
-          { scaleY: 1.5 },
+          { scaleX: 1.0 }, 
+          { scaleY: 1.0 },
        ]
       },
       bloodReportBlock : {
@@ -288,7 +288,7 @@ const styles = StyleSheet.create({
         height: hp('4.6875%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       bloodNamesDirection : {
@@ -300,7 +300,7 @@ const styles = StyleSheet.create({
         width: wp('23.0555%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",  
       },
       textInput12: {
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       name3: {
         top: hp('7.03125%'),
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
         width: wp('23.0555%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",  
       },
       textInput13: {
@@ -336,7 +336,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       name4: {
         top: hp('8.59375%'),
@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
         width: wp('23.0555%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",  
       },
       textInput14: {
@@ -358,7 +358,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       name5: {
         top: hp('10.625%'),
@@ -366,7 +366,7 @@ const styles = StyleSheet.create({
         width: wp('23.05555%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",  
       },
       textInput15: {
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       name6: {
         top: hp('12.1855%'),
@@ -388,7 +388,7 @@ const styles = StyleSheet.create({
         width: wp('23.05555%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",  
       },
       textInput16: {
@@ -402,7 +402,7 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 20
+        fontSize : 18
       },
       healthStatiticsBlock : {
         top : hp('56.25%'),
@@ -413,7 +413,7 @@ const styles = StyleSheet.create({
         width: wp('57.7777%'),
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",
        // marginTop: 15,
        // marginLeft: 34
@@ -424,7 +424,7 @@ const styles = StyleSheet.create({
         width: wp('23.6111%'),
         height: hp('5.4687%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       graph: {
@@ -442,7 +442,7 @@ const styles = StyleSheet.create({
         width: wp('23.6111%'),
         height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       graph1: {
@@ -460,7 +460,7 @@ const styles = StyleSheet.create({
         width: wp('23.05555%'),
         height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       graph2: {
@@ -478,7 +478,7 @@ const styles = StyleSheet.create({
         width: wp('23.05555%'),
         height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       graph3: {
@@ -499,7 +499,7 @@ const styles = StyleSheet.create({
         height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       faQs1: {
@@ -508,7 +508,7 @@ const styles = StyleSheet.create({
         width: wp('6.6666%'),
         height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700", 
       },
       faQs2: {
@@ -517,7 +517,7 @@ const styles = StyleSheet.create({
         width: wp('6.6666%'),
         height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700"
       },
       
@@ -527,7 +527,7 @@ const styles = StyleSheet.create({
         width: wp('6.6666%'),
         height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: "roboto-700",
       },
 
@@ -539,7 +539,7 @@ suggestion: {
   width: wp('86.3888%'),
   height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700",
   
 },
@@ -551,7 +551,7 @@ faQs4: {
   width: wp('6.6666%'),
   height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700",
   
 },
@@ -562,7 +562,7 @@ faQs5: {
   height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700"
 },
 faQs6: {
@@ -572,7 +572,7 @@ faQs6: {
   height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700"
 },
 faQs7: {
@@ -582,7 +582,7 @@ faQs7: {
   height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700"
 },
 feedbachBlock : {
@@ -595,7 +595,7 @@ feedback: {
   height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
   position: "absolute",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700"
 },
 feedbacktextInput: {
@@ -608,7 +608,7 @@ feedbacktextInput: {
   position: "absolute",
   opacity: 0.8,
   borderRadius: 60,
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-regular"
 },
 agreeTandCBlock : {
@@ -628,7 +628,7 @@ suggestioniAgreeTc1: {
   width: wp('42.2222%'),
   height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700",
   
 },
@@ -649,7 +649,7 @@ backrect3: {
 },
 back1Text: {
   color: "rgba(70,31,0,1)",
-  fontSize: 20,
+  fontSize: 18,
   fontFamily: "roboto-700",
   textAlign : "center",
   marginTop: hp('1.5625%'),
@@ -673,12 +673,9 @@ confirm1Text: {
   textAlign : "center",
   top : hp('1.5625%')
 },
-      
-      
-     
-      
-    
-  
+bottomTab : {
+  top : hp('-1.2500%')
+}
   });
 
   export default styles;

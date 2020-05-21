@@ -105,7 +105,7 @@ function SadhakasInformation(props) {
                 <View style={styles.rect}>
                     <Text style={styles.loremIpsum}>Sadhaka&#39;s Information</Text>
                 </View>
-            </View>
+            </View> 
             <View >
                 <CustomBottomBar {...props}/>
             </View>

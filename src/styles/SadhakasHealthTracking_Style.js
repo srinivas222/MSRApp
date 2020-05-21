@@ -11,26 +11,24 @@ const styles = StyleSheet.create({
   //backgroundColor: "white"
     },
     scrollArea: {
-      width: wp('100%'),
+      width: wp('100%'), 
       // backgroundColor: "#AF6A25",
       overflow: "hidden",
       flex: 1,
       //marginBottom: -2969,
       marginTop: 5,
-      marginLeft: 20,
+      marginLeft: wp('5.5555%'),
       //fontSize : 25
     },
     scrollArea_contentContainerStyle: {
       width: wp('100%'),
-      height: 1100,
+      height: hp('161.8750%'),
       flexDirection: "column",
   
     },
     group: {
-      //width: 300,
-      //height: 79,
-      marginTop: -630,
-      marginLeft: 20
+      marginTop: hp('-90.4375%'),
+      marginLeft: wp('5.5555%')
     },
     rect1: {
       width: wp('91.6%'),
@@ -44,27 +42,27 @@ const styles = StyleSheet.create({
       color: "rgba(70,31,0,1)",
       fontSize: 20,
       fontFamily: "roboto-700",
-      marginTop: 15,
+      marginTop: hp('2.3437%'),
       //marginLeft: 2,
       textAlign: "center"
     },
     date1: {
-      top: 10,
+      top: hp('1.5625%'),
      // left: 10,
       width: wp('18.8%'),
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     icon1: {
-      top: -10,
-      left: 50,
+      top: hp('-1.5625%'),
+      left: wp('13.8888%'),
     },
     textInput1: {
-      top: 0,
-      left: 80,
+      top: hp('0.0%'),
+      left: wp('22.2222%'),
       width: wp('37.5%'),
       height: hp('5.78%'),
       color: "#121212",
@@ -75,7 +73,7 @@ const styles = StyleSheet.create({
       fontFamily: "roboto-regular"
     },
     weightBlock : {
-      top: 0,
+      top: hp('0.0%'),
       flexDirection : "row",
       
     },
@@ -85,12 +83,12 @@ const styles = StyleSheet.create({
       height: hp('5.00%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput4: {
-      top: -10,
-      left: 85,
+      top: hp('-2.0625%'),
+      left: wp('18.6111%'),
       width: wp('23.6%'),
       height: hp('6.25%'),
       color: "#121212",
@@ -99,11 +97,11 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize: 20,
+      fontSize: 18,
     },
     icon2: {
-      top: -10,
-      left: -170,
+      top: hp('-1.5625%'),
+      left: -wp('47.2222%'),
       position: "absolute",
       color: "rgba(248,244,244,1)",
       fontSize: 40,
@@ -119,17 +117,17 @@ const styles = StyleSheet.create({
     },
     height: {
       //top: 60,
-      left: 190,
+      left: wp('45.7777%'),
       width: wp('22.2%'),
       height: hp('5.00%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput3: {
-      top: -10,
-      left: 265,
+      top: hp('-2.0625%'),
+      left: wp('62.61111%'),
       width: wp('23.61%'),
       height: hp('6.25%'),
       color: "#121212",
@@ -138,11 +136,11 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize: 20,
+      fontSize: 18,
     },
     icon3: {
-      top: -10,
-      left: 255,
+      top: hp('-1.5625%'),
+      left: wp('70.83333%'),
       position: "absolute",
       color: "rgba(248,244,244,1)",
       fontSize: 40,
@@ -154,8 +152,8 @@ const styles = StyleSheet.create({
      ]
     },
     icon6: {
-      top: -10,
-      left: 240,
+      top: hp('-1.5625%'),
+      left: wp('66.6666%'),
       position: "absolute",
       color: "rgba(70,31,0,1)",
       fontSize: 60,
@@ -164,21 +162,19 @@ const styles = StyleSheet.create({
     },
     
     bmiBlock : {
-      top: 30,
+      top: hp('4.6875%'),
     },
     bmi: {
-      
-      //left: 10,
       width: wp('16.94%'),
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput2: {
-      top: -10,
-      left: 60,
+      top: hp('-2.0625%'),
+      left: wp('13.6666%'),
       width: wp('72.22%'),
       height: hp('6.25%'),
       color: "#121212",
@@ -187,10 +183,10 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize: 20,
+      fontSize: 18,
     },
     bpBlock : {
-      top: 90,
+      top: hp('14.0625%'),
       flexDirection : "row",
     },
     bp: {
@@ -199,12 +195,12 @@ const styles = StyleSheet.create({
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput5: {
-      top: -15,
-      left: 58,
+      top: hp('-2.0437%'),
+      left: wp('13.1111%'),
       width: wp('27.77%'),
       height: hp('6.87%'),
       color: "#121212",
@@ -216,21 +212,21 @@ const styles = StyleSheet.create({
     },
     icon4: {
       flex : 1,
-      top: -15,
-      left: 60,
+      top: hp('-2.3437%'),
+      left: wp('13.6666%'),
       position: "absolute",
       //color: "rgba(248,244,244,1)",
       
       width: wp('25.0%'),
       height: hp('6.71%'),
       transform: [
-        { scaleX: 1.5 }, 
-        { scaleY: 1.5 },
+        { scaleX: 1.0 }, 
+        { scaleY: 1.0 },
      ]
     },
     textInput6: {
-      top: -15,
-      left: 200,
+      top: hp('-2.3437%'),
+      left: wp('51.5555%'),
       width: wp('27.77%'),
       height: hp('6.71%'),
       color: "#121212",
@@ -242,113 +238,97 @@ const styles = StyleSheet.create({
     },
   
     icon5: {
-      top: -15,
-      left: 210,
+      top: hp('-2.0437%'),
+      left: wp('51.3333%'),
       position: "absolute",
       color: "rgba(248,244,244,1)",
       fontSize: 40,
       width: wp('25.0%'),
       height: hp('5.00%%'),
       transform: [
-        { scaleX: 1.5 }, 
-        { scaleY: 1.5 },
+        { scaleX: 1.0 }, 
+        { scaleY: 1.0 },
      ]
     },
     bloodTest : {
-      top: 140,
+      top: hp('21.8750%'),
     },
     bloodTestInput: {
-      //left: 10,
       width: wp('59.44%'),
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
-    
     bloodreport : {
-      top: 350,
+      top: hp('54.6875%'),
     },
     bloodReport1: {
-      //top: 270,
-      //left: 10,
       width: wp('59.44%'),
       height: hp('5.46%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput11Stack: {
-      top :30,
+      top :hp('4.6875%'),
       flexDirection: "row",
       height: hp('6.25%'),
-      //flex : 1
     },
     textInput11: { 
-      //left: 10,
       width: wp('39.16%'),
       color: "#121212",
-     // position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput12: {
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput13: {
-     // top: 330,
-      //left: 10,
       width: wp('39.16%'),
-      
       color: "#121212",
-     // position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput14: {
-      //top: 330,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
-     
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     textInput15: {
-      //top: 360,
-      //left: 10,
       width: wp('39.16%'),
-      
       color: "#121212",
      // position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput16: {
       //top: 360,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
       
       color: "#121212",
@@ -356,11 +336,9 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput17: {
-     // top: 390,
-      //left: 10,
       width: wp('39.16%'),
      
       color: "#121212",
@@ -369,11 +347,11 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput18: {
       //top: 390,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
      
       color: "#121212",
@@ -381,12 +359,10 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     textInput19: {
-     // top: 420,
-      //left: 10,
       width: wp('39.16%'),
      
       color: "#121212",
@@ -395,37 +371,31 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput20: {
       //top: 420,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
-      
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     textInput21: {
-     // top: 450,
-      //left: 10,
       width: wp('39.16%'),
-      
       color: "#121212",
-      //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput22: {
-     // top: 450,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
       
       color: "#121212",
@@ -433,79 +403,67 @@ const styles = StyleSheet.create({
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     textInput23: {
-      //top: 480,
-      //left: 10,
       width: wp('39.16%'),
-      
       color: "#121212",
-      //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput24: {
      // top: 480,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
-      
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     textInput25: {
-      //top: 510,
-     // left: 10,
       width: wp('39.16%'),
-     
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     textInput26: {
      // top: 510,
-      left: 50,
+      left: wp('13.8888%'),
       width: wp('39.16%'),
-     
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
   
     },
     attachebloodreport :{
-      //top: -1890,
-      top : 410,
-      //flex : 1
+      top : hp('62.0625%'),
     },
     attachProfilePhoto1: {
-     // top: 200,
-      left: 22,
+      left: wp('6.1111%'),
       width: wp('69.44%'),
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     icon12: {
       
-      left: 285,
+      left: wp('79.1666%'),
       position: "absolute",
       color: "rgba(70,31,0,1)",
       fontSize: 40,
@@ -513,39 +471,39 @@ const styles = StyleSheet.create({
       height: hp('6.71%')
     },
     loremIpsum: {
-      //left: 10,
       width: wp('3.05%'),
       height: hp('4.21%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-regular"
     },
     termandcondition : {
-      top: 470,
-      //flex : 1
+      top: hp('68.4375%'),
+      left : wp('20.0%')
+     
     },
     icon13: {
-      //left: 20,
+      top : hp('-0.3812%'),
+      left : 10,
       position: "absolute",
       color: "rgba(70,31,0,1)",
-      fontSize: 40,
+      fontSize: 30,
       width: wp('11.66%'),
       height: hp('6.71%')
     },
     iAgreeTc1: {
-      //top: 570,
-      left: 70,
+      left: wp('14.4444%'),
       width: wp('42.22%'),
       height: hp('5.46%'),
       color: "rgba(70,31,0,1)",
       position: "absolute",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     button6Row: {
-     top: 530,
-      marginLeft: 10,
+     top: hp('74.8125%'),
+      marginLeft: wp('2.7777%'),
       height: hp('7.65%'),
       flexDirection: "row",
     },
@@ -561,16 +519,14 @@ const styles = StyleSheet.create({
     },
     back7: {
       color: "rgba(70,31,0,1)",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700",
       textAlign : "center",
-      marginTop: 5,
-      //marginLeft: 35
+      marginTop: hp('1.2500%'),
     },
     button7: {
       width: wp('38.33%'),
       height: hp('7.65%'),
-     // marginLeft: 14
     },
     button72: {
       width: wp('36.66%'),
@@ -581,26 +537,25 @@ const styles = StyleSheet.create({
       height: hp('7.18%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40,
-      left : 30
+      left : wp('8.3333%')
     },
     confirm1: {
       color: "rgba(70,31,0,1)",
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: "roboto-700",
       textAlign : "center",
-      marginTop: 5,
-     // marginLeft: 25
+      marginTop: hp('1.2500%'),
     },
     
     image7Stack: {
       width: wp('100%'),
       height: hp('60.00%'),
-      marginTop: 230,
-      marginLeft: 1
+      marginTop: hp('35.9375%'),
+      marginLeft: wp('0.27777%')
     },
     image7: {
-      top: 0,
-      left: 0,
+      top: hp('0.0%'),
+      left: wp('0.0%'),
       width: wp('100%'),
       height: hp('60.00%'),
       position: "absolute"
@@ -609,82 +564,10 @@ const styles = StyleSheet.create({
       opacity: 0.2
     },
     rect2: {
-      top: 620,
+      top: hp('89.8750%'),
       position: "absolute",
     },
-    // button123Row: {
-    //   height: 45,
-    //   flexDirection: "row",
-    //   flex: 1,
-    //   marginRight: 15,
-    //   marginLeft: 15,
-    //   marginTop: 10
-    // },
-    // button123: {
-    //   width: 42,
-    //   height: 44,
-    //   marginTop: 1
-    // },
-    // image2: {
-    //   width: 40,
-    //   height: 40,
-    //   flex: 1
-    // },
-    // button124: {
-    //   width: 42,
-    //   height: 44,
-    //   marginLeft: 21
-    // },
-    // image3: {
-    //   width: 40,
-    //   height: 40,
-    //   flex: 1
-    // },
-    // button125: {
-    //   width: 42,
-    //   height: 44,
-    //   marginLeft: 22,
-    //   marginTop: 1
-    // },
-    // image4: {
-    //   width: 40,
-    //   height: 40,
-    //   flex: 1
-    // },
-    // button126: {
-    //   width: 42,
-    //   height: 44,
-    //   marginLeft: 23
-    // },
-    // image5: {
-    //   width: 40,
-    //   height: 40,
-    //   flex: 1
-    // },
-    // button127: {
-    //   width: 42,
-    //   height: 44,
-    //   marginLeft: 18
-    // },
-    // image6: {
-    //   width: 40,
-    //   height: 40,
-    //   flex: 1
-    // },
     
-    // image8Stack: {
-    //   height: 80,
-    //   marginTop: 10,
-    //   marginLeft: 100
-  
-    // },
-    // image8: {
-    //   top: 7,
-    //   left: 0,
-    //   height: 73,
-    //   position: "absolute",
-    //   right: 0
-    // },
   
   });
 

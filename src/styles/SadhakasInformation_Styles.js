@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontFamily: "roboto-700"
       },
-      addressBlock1 : {
+      addressBlock1 : { 
           top : hp('2.34375%')
       },
       doorNumber: {
@@ -390,7 +390,7 @@ const styles = StyleSheet.create({
       bottomTab: {
         //width: 356,
         //height: 79,
-        marginTop: hp('92.65625%'),
+        marginTop: hp('92.65625%'), 
         //marginLeft: 27
       },
     

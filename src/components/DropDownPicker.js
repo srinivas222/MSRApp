@@ -1,4 +1,5 @@
 import React, { Component  } from "react";
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import {
   StyleSheet,
   View,
@@ -145,54 +146,54 @@ class DropDownPicker4 extends Component {
  const styles = StyleSheet.create({
     btdropdown1: {
         flex: 1,
-        top: 30,
-        left: 50,
-        width: 200,
-        height: 50,
+        top: hp('4.68%'),
+        left: wp('0.8888%'),
+        width: wp('55.55%'),
+        height: hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
-          { scaleX: 1.5 }, 
-          { scaleY: 1.5 },
+          { scaleX: 1.0 }, 
+          { scaleY: 1.0 },
        ]
       },
       btdropdown2: {
         flex: 1,
-        top: 70,
-        left: 50,
-        width: 200,
-        height: 50,
+        top: hp('10.9375%'),
+        left: wp('0.8888%'),
+        width: wp('55.55%'),
+        height:  hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
-          { scaleX: 1.5 }, 
-          { scaleY: 1.5 },
+          { scaleX: 1.0 }, 
+          { scaleY: 1.0 },
        ]
       },
       btdropdown3: {
         flex: 1,
-        top: 110,
-        left: 50,
-        width: 200,
-        height: 50,
+        top: hp('17.1875%'),
+        left: wp('0.8888%'),
+        width: wp('55.55%'),
+        height:  hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
-          { scaleX: 1.5 }, 
-          { scaleY: 1.5 },
+          { scaleX: 1.0 }, 
+          { scaleY: 1.0 },
        ]
       },
       btdropdown4: {
         flex: 1,
-        top: 150,
-        left: 50,
-        width: 200,
-        height: 50,
+        top: hp('23.4375%'),
+        left: wp('0.8888%'),
+        width: wp('55.55%'),
+        height:  hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
-          { scaleX: 1.5 }, 
-          { scaleY: 1.5 },
+          { scaleX: 1.0 }, 
+          { scaleY: 1.0 },
        ]
       },
  })
