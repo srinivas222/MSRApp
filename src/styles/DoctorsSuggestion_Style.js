@@ -8,30 +8,30 @@ const styles = StyleSheet.create({
       backgroundColor: "#AF6A25"
     },
     image7Stack: {
-     // width: 644,
-      height: 384,
+     // width: wp('100%'),
+      height: hp('60%'),
       marginTop: 230,
       marginLeft: 1
     },
     image7: {
       top: 0,
       left: 0,
-      width: 365,
-      height: 384,
+      width: wp('100%'),
+      height: hp('60%'),
       position: "absolute"
     },
     image7_imageStyle: {
       opacity: 0.2
     },
     group: {
-      //width: 300,
-      //height: 79,
+      //width: wp('83.33%'),
+      //height: hp('12.34%'),
       marginTop: -579,
       marginLeft: 15
     },
     rect1: {
-      width: 330,
-      height: 65,
+      width: wp('91.66%'),
+      height: hp('10.15%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40,
       borderColor: "#000000",
@@ -39,27 +39,27 @@ const styles = StyleSheet.create({
     },
     sadhakas1: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
       //marginTop: 10,
       //marginLeft: 2,
       textAlign: "center"
     },
     scrollArea_contentContainerStyle: {
-      width: 360,
+      width: wp('100%'),
       height: 2000,
       flexDirection: "column",
   
     },
     scrollArea: {
-      width: 360,
+      width: wp('100%'),
       // backgroundColor: "#AF6A25",
       overflow: "hidden",
       flex: 1,
       //marginBottom: -2969, 
       //marginTop: 5,
       marginLeft: 20,
-      //fontSize : 25
+      //fontSize : 22
     },
     dateBlock : {
         top: 20,
@@ -67,11 +67,11 @@ const styles = StyleSheet.create({
     },
     date1: {
         
-        width: 195,
-        height: 27,
+        width: wp('54.16%'),
+        height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
     
@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
         position: "absolute",
         color: "rgba(248,244,244,1)",
         fontSize: 40,
-        width: 200,
-        height: 83,
+        width: wp('55.55%'),
+        height: hp('12.96%'),
         transform: [
           { scaleX: 1.5 }, 
           { scaleY: 1.5 },
@@ -93,24 +93,24 @@ problemBlock : {
   left: 20,
 },
 problem: {
-    width: 127,
-    height: 27,
+    width: wp('35.27%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-700"
 },
 problemtextInput: {
     top: 50,
     //left: 10,
-    width: 305,
-    height: 214,
+    width: wp('84.72%'),
+    height: hp('33.43%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     color: "rgba(70,31,0,1)",
     position: "absolute",
     opacity: 0.8,
     borderRadius: 60,
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-regular"
 },
 agreeTandCBlock : {
@@ -121,17 +121,17 @@ agreeTandCBlock : {
   materialCheckboxTandC: {
     //top: 341,
     left: 0,
-    width: 30,
-    height: 20,
+    width: wp('8.33%'),
+    height: hp('3.12%'),
     //position: "absolute"
   },
   suggestioniAgreeTc1: {
    top : -8,
     left : 30,
-    width: 152,
-    height: 27,
+    width: wp('42.22%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-700",
     
   },
@@ -141,45 +141,45 @@ agreeTandCBlock : {
     left : 25
   },
   backbutton6: {
-    width: 138,
-    height: 51
+    width: wp('38.33%'),
+    height: hp('7.96%')
   },
   backrect3: {
-    width: 132,
-    height: 46,
+    width: wp('36.66%'),
+    height: hp('7.18%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40
   },
   back1Text: {
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-700",
     textAlign : "center"
     //marginTop: 10,
     //marginLeft: 35
   },
   confirmbutton7: {
-    width: 138,
-    height: 51,
+    width: wp('38.33%'),
+    height: hp('7.96%'),
     marginLeft: 14
   },
   confirmrect4: {
-    width: 132,
-    height: 46,
+    width: wp('36.66%'),
+    height: hp('7.18%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40
   },
   confirm1Text: {
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-700",
     textAlign : "center"
   },
   rect2: {
     top: 620,
     //left: 20,
-    width: 360,
-    height: 60,
+    width: wp('100%'),
+    height: hp('9.37%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     position: "absolute",
     borderRadius: 40,

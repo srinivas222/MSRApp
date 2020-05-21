@@ -7,23 +7,23 @@ const styles = StyleSheet.create({
       backgroundColor: "rgba(175,106,37,1)"
     },
     image7StackStack: {
-      width: 365,
-      height: 100,
+      width: wp('100%'),
+      height: hp('15.62%'),
       marginTop: 34,
       marginLeft: 1
     },
     image7Stack: {
       top: 188,
       left: 0,
-      width: 100,
-      height: 466,
+      width: wp('27.77%'),
+      height: hp('72.81%'),
       position: "absolute"
     },
     image7: {
       top: 2,
       left: 0,
-      width: 365,
-      height: 374,
+      width: wp('100%'),
+      height: hp('58.43%'),
       position: "absolute"
     },
     image7_imageStyle: {
@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
     rect1: {
       top: 10,
       left: 20,
-      width: 320,
-      height: 72,
+      width: wp('88.88%'),
+      height: hp('11.25%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40,
       borderColor: "#000000",
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
     feedback2: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
       textAlign : "center",
       top: 15,
@@ -52,23 +52,23 @@ const styles = StyleSheet.create({
       marginLeft: 20
     },
     sadhakasId: {
-      width: 162,
-      height: 30,
+      width: wp('45%'),
+      height: hp('4.68%'),
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700", 
     },
     textInput4: {
       top: 10,
       //left: 10,
-      width: 310,
-      height: 30,
+      width: wp('86.11%'),
+      height: hp('4.68%'),
       color: "#121212",
       borderColor: "rgba(250,247,247,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize: 25,
+      fontSize: 22,
       
     },
     feedbackblock: {
@@ -76,10 +76,10 @@ const styles = StyleSheet.create({
       left: 20,
   },
   feedback1: {
-    width: 127,
-    height: 27,
+    width: wp('35.27%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-700",
     //marginTop: 152,
     //marginLeft: 35
@@ -87,17 +87,17 @@ const styles = StyleSheet.create({
   textInput1Column: {
     top: 30,
     //left: 10,
-     // width: 321,
-     // height: 471,
+     // width: wp('89.16%'),
+     // height: hp('73.59%'),
   },
   textInput1: {
-    width: 305,
-    height: 200,
+    width: wp('84.72%'),
+    height: hp('31.25%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     color: "rgba(70,31,0,1)",
     opacity: 0.8,
     borderRadius: 60,
-    fontSize: 25,
+    fontSize: 22,
     fontFamily: "roboto-regular",
     marginLeft: 12
   }, 
@@ -108,18 +108,18 @@ const styles = StyleSheet.create({
     iAgreeTc1: {
      // top: 22,
       left: 50,
-      width: 152,
-      height: 35,
+      width: wp('42.22%'),
+      height: hp('5.46%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700"
     },
   materialCheckbox1: {
       //top: 0,
      // left: 0,
-      width: 67,
-      height: 40,
+      width: wp('18.61%'),
+      height: hp('6.25%'),
       position: "absolute"
     },
     backandconfirmBlock : {
@@ -128,37 +128,37 @@ const styles = StyleSheet.create({
       left : 25
     },
     backbutton6: {
-      width: 138,
-      height: 51
+      width: wp('38.33%'),
+      height: hp('7.96%')
     },
     backrect3: {
-      width: 132,
-      height: 46,
+      width: wp('36.66%'),
+      height: hp('7.18%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40
     },
     back1Text: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
       textAlign : "center"
       //marginTop: 10,
       //marginLeft: 35
     },
     confirmbutton7: {
-      width: 138,
-      height: 51,
+      width: wp('38.33%'),
+      height: hp('7.96%'),
       marginLeft: 14
     },
     confirmrect4: {
-      width: 132,
-      height: 46,
+      width: wp('36.66%'),
+      height: hp('7.18%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40
     },
     confirm1Text: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
       textAlign : "center"
     },

@@ -13,6 +13,7 @@ import IoniconsIcon from "react-native-vector-icons/Ionicons";
 import MaterialMapView1 from "../components/MaterialMapView1";
 import styles from "../styles/ActivityInfo_Style";
 import CustomBottomBar from "../components/customBottomBar";
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 function Activityinfomation(props) {
   const [activityName, setActivityName] = useState("name1");
@@ -90,7 +91,7 @@ function Activityinfomation(props) {
         </View>
           <View style = {styles.navigationBlock}>
           <Text style={styles.navigation}>Navigation :</Text>
-          <MaterialMapView1 style={styles.materialMapView1}></MaterialMapView1>
+          {/* <MaterialMapView1 style={styles.materialMapView1}></MaterialMapView1> */}
           </View>
 
 

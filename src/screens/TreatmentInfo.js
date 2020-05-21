@@ -96,7 +96,7 @@ function Treatmentinfomation(props) {
         </View>
           <View style = {styles.navigationBlock}>
           <Text style={styles.navigation}>Navigation :</Text>
-          <MaterialMapView1 style={styles.materialMapView1}></MaterialMapView1>
+          {/* <MaterialMapView1 style={styles.materialMapView1}></MaterialMapView1> */}
           </View>
         <View style={styles.bottomTab}>
           <CustomBottomBar {...props}/>

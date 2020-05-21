@@ -7,6 +7,7 @@ import {
     Text,
     TouchableOpacity
 } from "react-native";
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 const CustomBottomBar = (props) => {
 
@@ -15,6 +16,7 @@ const CustomBottomBar = (props) => {
 
         <View style={styles.rect4}>
             <View style={styles.button1Row}>
+            
                 <TouchableOpacity
                     onPress={() => props.navigation.navigate("Homepage")}
                     style={styles.button1}
@@ -25,16 +27,19 @@ const CustomBottomBar = (props) => {
                         style={styles.image2}
                     ></Image>
                 </TouchableOpacity>
+    
                 <TouchableOpacity
-                    onPress={() => props.navigation.navigate("ProfileScreen")}
-                    style={styles.button7}
-                >
-                    <Image
-                        source={require("../assets/images/profile.png")}
-                        resizeMode="contain"
-                        style={styles.image7}
-                    ></Image>
-                </TouchableOpacity>
+                onPress={() => props.navigation.navigate("ProfileScreen")}
+                style={styles.button7}
+            >
+                <Image
+                    source={require("../assets/images/profile.png")}
+                    resizeMode="contain"
+                    style={styles.image7}
+                ></Image>
+            </TouchableOpacity>
+            
+                   
                 <TouchableOpacity
                     onPress={() => props.navigation.navigate("Activityinfomation")}
                     style={styles.button2}
@@ -45,6 +50,8 @@ const CustomBottomBar = (props) => {
                         style={styles.image3}
                     ></Image>
                 </TouchableOpacity>
+                
+    
                 <TouchableOpacity
                     onPress={() => props.navigation.navigate("TreatmentInfo")}
                     style={styles.button3}
@@ -55,6 +62,8 @@ const CustomBottomBar = (props) => {
                         style={styles.image4}
                     ></Image>
                 </TouchableOpacity>
+        
+                
                 <TouchableOpacity
                     onPress={() => props.navigation.navigate("Dietmenu")}
                     style={styles.button4}
@@ -65,6 +74,8 @@ const CustomBottomBar = (props) => {
                         style={styles.image5}
                     ></Image>
                 </TouchableOpacity>
+        
+                
                 <TouchableOpacity
                     onPress={() => props.navigation.navigate("SadhakasHealthTracking")}
                     style={styles.button5}
@@ -75,6 +86,7 @@ const CustomBottomBar = (props) => {
                         style={styles.image6}
                     ></Image>
                 </TouchableOpacity>
+                
             </View>
         </View>
     )
@@ -83,76 +95,93 @@ const CustomBottomBar = (props) => {
 
 const styles = StyleSheet.create({
     rect4: {
-         flexDirection: "row",
-         justifyContent: 'flex-end',
-        //width : 300,
-        alignItems: 'center',
+        flexDirection: "row",
+        justifyContent: 'center',
+        width: wp('91.666%'),
+        //alignItems: 'center',
         backgroundColor: "rgba(230, 230, 230,1)",
         borderRadius: 40,
-        borderColor: "#000000"
+        borderColor: "#000000",
+        marginLeft: wp('4.1666%')
     },
     button1: {
-        width: 42,
-        height: 44,
-        marginTop: 1
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     image2: {
-        width: 40,
-        height: 40,
-        left : 10,
-        top : -2
+        width: wp('9.111%'),
+        height: hp('9.111%'),
+        left: wp('0.0%'),
+        marginBottom: hp('7.0%')
     },
     button2: {
-        width: 42,
-        height: 44,
-        marginLeft: 18
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     image3: {
-        width: 40,
-        height: 40
+        width: wp('10.111%'),
+        height: hp('10.111%'),
+        left: wp('0.5%'),
+        marginBottom: hp('7.0%')
     },
     button3: {
-        width: 42,
-        height: 44,
-        marginLeft: 18,
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     image4: {
-        width: 40,
-        height: 40
+        width: wp('10.111%'),
+        height: hp('10.111%'),
+       left: wp('2.0%'),
+        marginBottom: hp('7.0%')
     },
     button4: {
-        width: 42,
-        height: 44,
-        marginLeft: 18
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     image5: {
-        width: 40,
-        height: 40
+        width: wp('10.111%'),
+        height: hp('10.111%'),
+        left: wp('5.5%'),
+        marginBottom: hp('7.0%')
     },
     button5: {
-        width: 42,
-        height: 44,
-        marginLeft: 18
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     image6: {
-        width: 40,
-        height: 40
+        width: wp('9.111%'),
+        height: hp('9.111%'),
+        left: wp('7.5%'),
+        marginBottom: hp('7.0%')
     },
     image7: {
-        width: 40,
-        height: 40
+        width: wp('10.111%'),
+        height: hp('10.111%'),
+        left: wp('-0.5%'),
+        marginBottom: hp('7.0%')
     },
 
     button7: {
-        width: 42,
-        height: 44,
-        marginLeft: 18
+        width: wp('12.666%'),
+        height: hp('8.875%'),
+      //  marginTop: hp('0.000015625%'),
+        marginLeft: wp('0.0%')
     },
     button1Row: {
         flexDirection: "row",
-        marginRight: 15,
-        marginLeft: 12,
-        marginTop: 15
+        marginRight: wp('4.1666%'),
+        /* marginLeft: wp('3.333%'),
+        marginTop: hp('2.34375%') */
     }
 });
 

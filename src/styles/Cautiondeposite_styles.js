@@ -7,16 +7,16 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(175,106,37,1)"
   },
   image7Stack: {
-    width: 365,
-    height: 418,
+    width: wp('100%'),
+    height: hp('65.31%'),
     marginTop: 217,
     marginLeft: 1
   },
   image7: {
     top: 7,
     left: 0,
-    width: 365,
-    height: 374,
+    width: wp('100%'),
+    height: hp('58.43%'),
     position: "absolute"
   },
   image7_imageStyle: {
@@ -25,13 +25,13 @@ const styles = StyleSheet.create({
   header: {
     top: -180,
     left: 33,
-    width: 321,
-    height: 77,
+    width: wp('89.16%'),
+    height: hp('12.03%'),
     
   },
   rect5: {
-    width: 308,
-    height: 72,
+    width: wp('85.55%'),
+    height: hp('11.25%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40,
     borderColor: "#000000",
@@ -49,15 +49,15 @@ const styles = StyleSheet.create({
     marginLeft: 20
   },
   sadhakasId: {
-    width: 162,
-    height: 27,
+    width: wp('45%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     fontSize: 25,
     fontFamily: "roboto-700",
   },
   sadhakastextinput1: {
-    width: 313,
-    height: 36,
+    width: wp('86.94%'),
+    height: hp('5.62%'),
     color: "#121212",
     borderColor: "rgba(250,247,247,1)",
     borderWidth: 0,
@@ -73,23 +73,23 @@ const styles = StyleSheet.create({
   amountPaid1: {
     //top: 0,
     //left: 38,
-    width: 165,
-    height: 30,
+    width: wp('45.83%'),
+    height: hp('4.68%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
     fontFamily: "roboto-700"
   },
   amountpaidtextinput1: {
-    width: 313,
-    height: 36,
+    width: wp('86.94%'),
+    height: hp('5.62%'),
     color: "#121212",
     borderColor: "rgba(250,247,247,1)",
     borderWidth: 0,
     borderBottomWidth: 2,
     fontFamily: "roboto-regular",
     marginTop: 30,
-    fontSize : 20
+    fontSize : 25
    // marginLeft: 39
   },
   balanceAndStatementBlock : {
@@ -100,8 +100,8 @@ const styles = StyleSheet.create({
   balance1: {
     //top: 75,
     //left: 38,
-    width: 108,
-    height: 27,
+    width: wp('30%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
@@ -110,21 +110,21 @@ const styles = StyleSheet.create({
   balancetextinput1: {
     top: 30,
     //left: 39,
-    width: 100,
-    height: 36,
+    width: wp('27.77%'),
+    height: hp('5.62%'),
     color: "#121212",
     position: "absolute",
     borderColor: "rgba(250,247,247,1)",
     borderWidth: 0,
     borderBottomWidth: 2,
     fontFamily: "roboto-regular",
-    fontSize : 20,
+    fontSize : 25,
   },
   viewStatement1: {
     //top: 75,
     left: 140,
-    width: 199,
-    height: 27,
+    width: wp('55.27%'),
+    height: hp('4.21%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
@@ -133,8 +133,8 @@ const styles = StyleSheet.create({
   statement1: {
     top: 50,
     left: 220,
-    width: 52,
-    height: 53,
+    width: wp('14.44%'),
+    height: hp('8.28%'),
     position: "absolute"
   },
   icon3: {
@@ -147,8 +147,8 @@ const styles = StyleSheet.create({
     left: 20,
   },
   depositeMoney: {
-    width: 203,
-    height: 35,
+    width: wp('56.38%'),
+    height: hp('5.46%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
@@ -157,8 +157,8 @@ const styles = StyleSheet.create({
   payment1: {
     top: 20,
     left: 200,
-    width: 112,
-    height: 107,
+    width: wp('31.11%'),
+    height: hp('16.71%'),
     position: "absolute"
   },
   icon4: {
@@ -169,12 +169,12 @@ const styles = StyleSheet.create({
   dischargegroup: {
     top: 307,
     left: 9,
-    width: 349,
-    height: 43,
+    width: wp('96.94%'),
+    height: hp('6.71%'),
     position: "absolute"
   },
   materialCheckbox1Stack: {
-    width: 349,
+    width: wp('96.94%'),
     flex: 1
   },
   materialCheckbox1: {
@@ -188,8 +188,8 @@ const styles = StyleSheet.create({
   loremIpsum: {
     top: 7,
     left: 36,
-    width: 313,
-    height: 35,
+    width: wp('86.94%'),
+    height: hp('5.46%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
@@ -198,19 +198,19 @@ const styles = StyleSheet.create({
   tandC: {
     top: 340,
     //left: 10,
-    width: 209,
-    height: 70,
+    width: wp('58.05%'),
+    height: hp('10.93%'),
     position: "absolute"
   },
   iAgreeTc1Stack: {
-    width: 209,
+    width: wp('58.05%'),
     flex: 1
   },
   iAgreeTc1: {
     top: 19,
     left: 57,
-    width: 152,
-    height: 35,
+    width: wp('42.22%'),
+    height: hp('5.46%'),
     color: "rgba(70,31,0,1)",
     position: "absolute",
     fontSize: 25,
@@ -219,25 +219,25 @@ const styles = StyleSheet.create({
   materialCheckbox2: {
     top: 0,
     left: 0,
-    width: 67,
+    width: wp('18.61%'),
     position: "absolute",
     bottom: 0
   },
   backRow: {
     top : 330,
-    height: 50,
+    height: hp('7.81%'),
     flexDirection: "row",
     marginLeft: 43,
     marginRight: 42
   },
   back: {
-    width: 138,
-    height: 49,
+    width: wp('38.33%'),
+    height: hp('7.65%'),
     marginTop: 1
   },
   rect4: {
-    width: 132,
-    height: 46,
+    width: wp('36.66%'),
+    height: hp('7.18%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40
   },
@@ -250,13 +250,13 @@ const styles = StyleSheet.create({
     //marginLeft: 35
   },
   confirm: {
-    width: 138,
-    height: 49,
+    width: wp('38.33%'),
+    height: hp('7.65%'),
     marginLeft: 14
   },
   rect3: {
-    width: 132,
-    height: 46,
+    width: wp('36.66%'),
+    height: hp('7.18%'),
     backgroundColor: "rgba(230, 230, 230,1)",
     borderRadius: 40
   },
