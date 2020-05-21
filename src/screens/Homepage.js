@@ -52,13 +52,15 @@ function Homepage(props) {
       <View style={styles.profileAndActivityBlock}>
         <View>
           <Text style={styles.profile}>Profile</Text>
-          <TouchableOpacity style={styles.button12}>
+          <TouchableOpacity style={styles.button12}
+          onPress={() => props.navigation.navigate("SadhakasInformation")}>
             <Image
               source={require("../assets/images/profile.png")}
               resizeMode="contain"
               style={styles.image7}
             ></Image>
           </TouchableOpacity>
+          
         </View>
         <View>
           <Text style={styles.activity}>Activity</Text>

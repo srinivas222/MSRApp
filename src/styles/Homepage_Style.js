@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
       },
       button14Row: {
         height: 54,
-        flexDirection: "row",
+        flexDirection: "row", 
         flex: 1,
         marginRight: 13,
         marginLeft: 17,
@@ -48,13 +48,13 @@ const styles = StyleSheet.create({
       },
       icon4: {
         color: "rgba(70,31,0,1)",
-        fontSize: 18
+        fontSize: 22
       },
       home: {
         width: wp('19.44%'),
         height: hp('6.71%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700",
         marginLeft: 78,
         textAlign : "center",
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
       },
       icon2: {
         color: "rgba(70,31,0,1)",
-        fontSize: 18
+        fontSize: 22
       },
       profileAndActivityBlock : {
         top : 30,
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
         height: 27,
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       button12: {
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
         height: hp('5.46%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       button2: {
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
         width: wp('33.61%'),
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700",
         
       },
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       button4: {
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       tracking: {
@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
         height: hp('5.46%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       health2Stack: {
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       interaction: {
@@ -231,7 +231,7 @@ const styles = StyleSheet.create({
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       
@@ -250,13 +250,13 @@ const styles = StyleSheet.create({
           top : 350
       },
       feedback: {
-        //top: 14,
-        left: 155,
+        top: hp('-2.5%'),
+        left: 180,
         width: wp('31.38%'),
         height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 18,
+        fontSize: 22,
         fontFamily: "roboto-700"
       },
       button122Stack: {
@@ -275,7 +275,10 @@ const styles = StyleSheet.create({
       },
       icon3: {
         color: "rgba(19,19,19,1)",
-        fontSize: 18
+        fontSize: 65,
+        top : hp('-5.0%'),
+        //marginBottom : hp('3.125%'),
+        left : wp('9.888%')
       },
   });
 

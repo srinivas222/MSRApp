@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     group: {
       //width: wp('83.33%'),
       //height: hp('12.34%'),
-      marginTop: -579,
+      marginTop: -600,
       marginLeft: 15
     },
     rect1: {
