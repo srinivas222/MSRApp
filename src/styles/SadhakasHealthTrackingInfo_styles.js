@@ -9,15 +9,15 @@ const styles = StyleSheet.create({
     },
     image7Stack: {
      // width: 644,
-      height: 384,
-      marginTop: 230,
-      marginLeft: 1
+      height: hp('60.00%'),
+      marginTop: hp('35.9375%'),
+      marginLeft: wp('0.2777%')
     },
     image7: {
-      top: 0,
-      left: 0,
-      width: 365,
-      height: 384,
+      top: hp('0.0%'),
+      left: wp('0.0%'), 
+      width: wp('100%'),
+      height: hp('60.00%'),
       position: "absolute"
     },
     image7_imageStyle: {
@@ -26,12 +26,12 @@ const styles = StyleSheet.create({
     group: {
       //width: 300,
       //height: 79,
-      marginTop: -579,
-      marginLeft: 15
+      marginTop: hp('-90.4687%'),
+      marginLeft: wp('4.1666%')
     },
     rect1: {
-      width: 330,
-      height: 65,
+      width: wp('91.6666%'),
+      height: hp('10.1562%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40,
       borderColor: "#000000",
@@ -39,59 +39,60 @@ const styles = StyleSheet.create({
     },
     sadhakas1: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
-      //marginTop: 10,
+      marginTop: hp('1.09375%'),
       //marginLeft: 2,
-      textAlign: "center"
+      textAlign: "center",
+      
     },
     scrollArea_contentContainerStyle: {
-      width: 360,
+      width: wp('100%'),
       height: 2000,
       flexDirection: "column",
   
     },
     scrollArea: {
-      width: 360,
+      width: wp('100%'),
       // backgroundColor: "#AF6A25",
       overflow: "hidden",
       flex: 1,
       //marginBottom: -2969, 
       //marginTop: 5,
-      marginLeft: 20,
+      marginLeft: wp('5.555%'),
       //fontSize : 25
     },
     dateBlock : {
-        top: 20,
+        top: hp('3.1250%'),
     },
     date1: {
-        left: 10,
-        width: 68,
-        height: 27,
+        left: wp('2.777%'),
+        width: wp('18.8888%'),
+        height: hp('4.21%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       dateTime: {
-        top: 15,
+        top: hp('3.3437%'),
       },
       weightBlock : {
-        top: 40,
+        top: hp('6.2500%'),
       },
       weight: {
-        left: 0,
-        width: 90,
-        height: 32,
+        left: wp('0.0%'),
+        width: wp('17.00%'),
+        height: hp('5.0000%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       textInput4: {
-        top: -12,
-        left: 85,
-        width: 73,
+        top: hp('-1.874%'),
+        left: wp('23.6111%'),
+        width: wp('20.2777%'),
         height: 43,
         color: "#121212",
         position: "absolute",
@@ -102,68 +103,68 @@ const styles = StyleSheet.create({
       },
       
       icon2: {
-        top: -15,
-        left: 90,
+        top: hp('-2.3427%'),
+        left: wp('25%'),
         position: "absolute",
         color: "rgba(248,244,244,1)",
         fontSize: 40,
-        width: 70,
-        height: 43,
+        width: wp('19.4444%'),
+        height: hp('6.7187%'),
         transform: [
           { scaleX: 1.5 }, 
           { scaleY: 1.5 },
        ]
       },
      bmiBlock : {
-        top: 90,
+        top: hp('14.0625%'),
      },
       bmi: {
-        left: 0,
-        width: 61,
-        height: 27,
+        left: wp('0.0%'),
+        width: wp('16.9444%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       textInput2: {
-        top: -10,
-        left: -65,
-        width: 200,
-        height: 40,
+        top: hp('-1.5625%'),
+        left: wp('-18.0555%'),
+        width: wp('55.5555%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
         borderWidth: 0,
         borderBottomWidth: 2,
         fontFamily: "roboto-regular",
-        fontSize : 25
+        fontSize : 20
       },
       textInput2Stack: {
-        top: 0,
-        left: 130,
-        width: 73,
-        height: 48,
+        top: hp('0.0%'),
+        left: wp('36.1111%'),
+        width: wp('20.2777%'),
+        height: hp('7.500%'),
         position: "absolute"
       },
       heightBlock : {
-        top: 40,
+        top: hp('6.2500%'),
       },
       height: {
        
-        left: 170,
-        width: 87,
-        height: 32,
+        left: wp('47.222%'),
+        width: wp('17.1666%'),
+        height: hp('5.0000%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       textInput3: {
-        top: -12,
-        left: 255,
-        width: 73,
-        height: 43,
+        top: hp('-1.875%'),
+        left: wp('70.8333%'),
+        width: wp('20.2777%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -172,102 +173,104 @@ const styles = StyleSheet.create({
         fontFamily: "roboto-regular"
       },
       icon3: {
-        top: -15,
-        left: 260,
+        top: hp('-2.343%'),
+        left: wp('72.222%'),
         position: "absolute",
         color: "rgba(248,244,244,1)",
         fontSize: 40,
-        width: 70,
-        height: 43,
+        width: wp('19.4444%'),
+        height: hp('6.7187%'),
         transform: [
           { scaleX: 1.5 }, 
           { scaleY: 1.5 },
        ]
       },
     bpBlock : {
-        top: 145,
-        left : 0
+        top: hp('22.65625%'),
+        left : wp('0.0%')
     },
       bp: {
         //left: 10,
-        width: 61,
-        height: 27,
+        width: wp('16.9444%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       textInput5: {
-        top: -15,
-        left: 58,
-        width: 100,
-        height: 44,
+        top: hp('-2.34375%'),
+        left: wp('16.111%'),
+        width: wp('27.7777%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
         borderWidth: 0,
         borderBottomWidth: 2,
-        fontFamily: "roboto-regular"
+        fontFamily: "roboto-regular",
+        fontSize: 20,
       },
       icon4: {
         //flex : 1,
-        top: -20,
-        left: 70,
+        top: hp('-3.125%'),
+        left: wp('19.444%'),
         position: "absolute",
         //color: "rgba(248,244,244,1)",
         
-        width: 80,
-        height: 43,
+        width: wp('22.2222%'),
+        height: hp('6.71875%'),
         transform: [
           { scaleX: 1.5 }, 
           { scaleY: 1.5 },
        ]
       },
       textInput6: {
-        top: -15,
-        left: 180,
-        width: 100,
-        height: 43,
+        top: hp('-2.34375%'),
+        left: wp('50.00%'),
+        width: wp('27.7777%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
         borderWidth: 0,
         borderBottomWidth: 2,
-        fontFamily: "roboto-regular"
+        fontFamily: "roboto-regular",
+        fontSize: 20,
       },
     
       icon5: {
-        top: -20,
-        left: 190,
+        top: hp('-3.125%'),
+        left: wp('52.777%'),
         position: "absolute",
         color: "rgba(248,244,244,1)",
         fontSize: 40,
-        width: 80,
-        height: 32,
+        width: wp('22.2222%'),
+        height: hp('5.00%'),
         transform: [
           { scaleX: 1.5 }, 
           { scaleY: 1.5 },
        ]
       },
       bloodTest : {
-        top: 190,
+        top: hp('29.6875%'),
       },
       bloodTestInput: {
         
         //left: 10,
-        width: 214,
-        height: 27,
+        width: wp('59.4444%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       btdropdown1: {
         //flex: 1,
-        top: 30,
-        left: 40,
-        width: 200,
-        height: 50,
+        top: hp('4.6875%'),
+        left: wp('11.111%'),
+        width: wp('55.5555%'),
+        height: hp('7.8125%'),
         color: "white",
         position: "absolute",
         transform: [
@@ -276,35 +279,35 @@ const styles = StyleSheet.create({
        ]
       },
       bloodReportBlock : {
-        top: 260,
+        top: hp('40.625%'),
       },
       bloodReport1: {
         
         //left: 10,
-        width: 167,
-        height: 30,
+        width: wp('46.3888%'),
+        height: hp('4.6875%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       bloodNamesDirection : {
         
       },
       name2: {
-        top: 35,
+        top: hp('5.46875%'),
         //left: 10,
-        width: 83,
-        height: 27,
+        width: wp('23.0555%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",  
       },
       textInput12: {
-        top : 20,
-        left: 80,
-        width: 188,
-        height: 43,
+        top : hp('2.725%'),
+        left: wp('18.222%'),
+        width: wp('52.2222%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -314,19 +317,19 @@ const styles = StyleSheet.create({
         fontSize : 20
       },
       name3: {
-        top: 45,
+        top: hp('7.03125%'),
        // left: 10,
-        width: 83,
-        height: 27,
+        width: wp('23.0555%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",  
       },
       textInput13: {
-        top : 60,
-        left: 80,
-        width: 188,
-        height: 43,
+        top : hp('8.725%'),
+        left: wp('18.222%'),
+        width: wp('52.2222%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -336,19 +339,19 @@ const styles = StyleSheet.create({
         fontSize : 20
       },
       name4: {
-        top: 55,
+        top: hp('8.59375%'),
         //left: 10,
-        width: 83,
-        height: 27,
+        width: wp('23.0555%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",  
       },
       textInput14: {
-        top : 100,
-        left: 80,
-        width: 188,
-        height: 43,
+        top : hp('14.725%'),
+        left: wp('18.222%'),
+        width: wp('52.2222%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -358,19 +361,19 @@ const styles = StyleSheet.create({
         fontSize : 20
       },
       name5: {
-        top: 68,
+        top: hp('10.625%'),
         //left: 10,
-        width: 83,
-        height: 27,
+        width: wp('23.05555%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",  
       },
       textInput15: {
-        top : 140,
-        left: 80,
-        width: 188,
-        height: 43,
+        top : hp('20.725%'),
+        left: wp('18.222%'),
+        width: wp('52.2222%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -380,19 +383,19 @@ const styles = StyleSheet.create({
         fontSize : 20
       },
       name6: {
-        top: 78,
+        top: hp('12.1855%'),
         //left: 10,
-        width: 83,
-        height: 27,
+        width: wp('23.05555%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",  
       },
       textInput16: {
-        top : 180,
-        left: 80,
-        width: 188,
-        height: 43,
+        top : hp('26.725%'),
+        left: wp('18.222%'),
+        width: wp('52.2222%'),
+        height: hp('6.2500%'),
         color: "#121212",
         position: "absolute",
         borderColor: "rgba(248,244,244,1)",
@@ -402,271 +405,273 @@ const styles = StyleSheet.create({
         fontSize : 20
       },
       healthStatiticsBlock : {
-        top : 360,
+        top : hp('56.25%'),
       },
 
       healthStatistics: {
        
-        width: 208,
-        height: 27,
+        width: wp('57.7777%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",
        // marginTop: 15,
        // marginLeft: 34
       },
       weight4: {
-        top : 30,
-        left : 30,
-        width: 85,
-        height: 35,
+        top : hp('4.6875%'),
+        left : wp('8.333%'),
+        width: wp('23.6111%'),
+        height: hp('5.4687%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       graph: {
-        top:90,
-        left: 30,
+        top:hp('14.0625%'),
+        left: wp('8.333%'),
         position: "absolute",
         color: "rgba(9,9,9,1)",
         fontSize: 100,
-        width: 104,
-        height: 107
+        width: wp('28.8888%'),
+        height: hp('16.7187%')
       },
       blood: {
-        top : 30,
-        left : 100,
-        width: 85,
-        height: 27,
+        top : hp('4.6875%'),
+        left : wp('35.625%'),
+        width: wp('23.6111%'),
+        height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       graph1: {
-        top: 90,
-        left: 100,
+        top: hp('14.0625%'),
+        left: wp('30.625%'),
         position: "absolute",
         color: "rgba(9,9,9,1)",
         fontSize: 100,
-        width: 104,
-        height: 107
+        width: wp('28.8888%'),
+        height: hp('16.7187%')
       },
       activity: {
-        top : 170,
-        left : 30,
-        width: 85,
-        height: 27,
+        top : hp('26.5625%'),
+        left : wp('8.333%'),
+        width: wp('23.05555%'),
+        height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       graph2: {
-        top: 230,
-        left: 30,
+        top: hp('35.9375%'),
+        left: wp('8.333%'),
         position: "absolute",
         color: "rgba(9,9,9,1)",
         fontSize: 100,
-        width: 104,
-        height: 107
+        width: wp('28.8888%'),
+        height: hp('16.7187%')
       },
       diet: {
-        top : 170,
-        left : 100,
-        width: 85,
-        height: 27,
+        top : hp('26.5625%'),
+        left : wp('35.777%'),
+        width: wp('23.05555%'),
+        height: hp('4.2187%'),
         color: "rgba(245,241,237,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       graph3: {
-        top: 230,
-        left: 100,
+        top: hp('35.9375%'),
+        left: wp('30.777%'),
         position: "absolute",
         color: "rgba(9,9,9,1)",
         fontSize: 100,
-        width: 104,
-        height: 107
+        width: wp('28.8888%'),
+        height: hp('16.7187%')
       },
       faqBlock : {
-        top: 350,
+        top: hp('54.6875%'),
       },
       faQs: {
-        left: 0,
-        width: 77,
-        height: 27,
+        left: wp('0.0%'),
+        width: wp('21.3888%'),
+        height: hp('4.2187%'),
         color: "rgba(70,31,0,1)",
         position: "absolute",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       faQs1: {
-        top : 30,
-        left : 0,
-        width: 24,
-        height: 27,
+        top : hp('4.6875%'),
+        left : wp('0.0%'),
+        width: wp('6.6666%'),
+        height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700", 
       },
       faQs2: {
-        top: 60,
-        left: 0,
-        width: 24,
-        height: 27,
+        top: hp('9.375%'),
+        left: wp('0.0%'),
+        width: wp('6.6666%'),
+        height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700"
       },
       
       faQs3: {
-        top : 90,
-        left : 0,
-        width: 24,
-        height: 27,
+        top : hp('14.0625%'),
+        left : wp('0.0%'),
+        width: wp('6.6666%'),
+        height: hp('4.2187%'),
         color: "rgba(243,240,238,1)",
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: "roboto-700",
       },
 
 //======================================================================
 suggestionBlock : {
-top : 820
+top : hp('128.125%')
 },
 suggestion: {
-  width: 311,
-  height: 27,
+  width: wp('86.3888%'),
+  height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700",
   
 },
 suggestionFaqBlock : {
-  top : 30,
+  top : hp('4.6875%'),
 },
 faQs4: {
-  top : 0,
-  width: 24,
-  height: 27,
+  top : hp('0.0%'),
+  width: wp('6.6666%'),
+  height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700",
   
 },
 faQs5: {
-  top : 50,
-  left: 0,
-  width: 24,
-  height: 27,
+  top : hp('7.8125%'),
+  left: wp('0.0%'),
+  width: wp('6.6666%'),
+  height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700"
 },
 faQs6: {
-  top : 100,
-  left: 0,
-  width: 24,
-  height: 27,
+  top : hp('15.625%'),
+  left: wp('0.0%'),
+  width: wp('6.6666%'),
+  height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700"
 },
 faQs7: {
-  top : 150,
-  left: 0,
-  width: 24,
-  height: 27,
+  top : hp('23.4375%'),
+  left: wp('0.0%'),
+  width: wp('6.6666%'),
+  height: hp('4.2187%'),
   color: "rgba(243,240,238,1)",
   position: "absolute",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700"
 },
 feedbachBlock : {
-  top: 200,
+  top: hp('31.25%'),
 },
 feedback: {
  
-  left: 0,
-  width: 127,
-  height: 27,
+  left: wp('0.0%'),
+  width: wp('35.2777%'),
+  height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
   position: "absolute",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700"
 },
 feedbacktextInput: {
-  top: 50,
-  left: 0,
-  width: 305,
-  height: 214,
+  top: hp('7.8125%'),
+  left: wp('0.0%'),
+  width: wp('84.7222%'),
+  height: hp('33.4375%'),
   backgroundColor: "rgba(230, 230, 230,1)",
   color: "rgba(70,31,0,1)",
   position: "absolute",
   opacity: 0.8,
   borderRadius: 60,
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-regular"
 },
 agreeTandCBlock : {
-  top: 500,
+  top: hp('78.125%'),
   flexDirection : "row"
 },
 materialCheckboxTandC: {
   //top: 341,
-  left: 0,
-  width: 30,
-  height: 20,
+  left:wp('22.0%'),
+  width: wp('8.3333%'),
+  height: hp('2.125%'),
   //position: "absolute"
 },
 suggestioniAgreeTc1: {
-  top : -8,
-  left : 30,
-  width: 152,
-  height: 27,
+  top : hp('-1.25%'),
+  left : wp('25.333%'),
+  width: wp('42.2222%'),
+  height: hp('4.2187%'),
   color: "rgba(70,31,0,1)",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700",
   
 },
 backandconfirmBlock : {
-  top : 520,
-  flexDirection : "row"
+  top : hp('81.25%'),
+  flexDirection : "row",
+  left : wp('5.555%')
 },
 backbutton6: {
-  width: 138,
-  height: 51
+  width: wp('38.3333%'),
+  height: hp('7.9687%')
 },
 backrect3: {
-  width: 132,
-  height: 46,
+  width: wp('36.6666%'),
+  height: hp('7.1875%'),
   backgroundColor: "rgba(230, 230, 230,1)",
   borderRadius: 40
 },
 back1Text: {
   color: "rgba(70,31,0,1)",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700",
-  textAlign : "center"
-  //marginTop: 10,
-  //marginLeft: 35
+  textAlign : "center",
+  marginTop: hp('1.5625%'),
+//marginLeft: 35
 },
 confirmbutton7: {
-  width: 138,
-  height: 51,
+  width: wp('38.33%'),
+  height: hp('7.9687%'),
   marginLeft: 14
 },
 confirmrect4: {
-  width: 132,
-  height: 46,
+  width: wp('36.6666%'),
+  height: hp('7.1875%'),
   backgroundColor: "rgba(230, 230, 230,1)",
   borderRadius: 40
 },
 confirm1Text: {
   color: "rgba(70,31,0,1)",
-  fontSize: 25,
+  fontSize: 20,
   fontFamily: "roboto-700",
-  textAlign : "center"
+  textAlign : "center",
+  top : hp('1.5625%')
 },
       
       

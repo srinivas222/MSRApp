@@ -6,7 +6,8 @@ import {
     ImageBackground,
     Text,
     TextInput,
-    TouchableOpacity
+    TouchableOpacity,
+    ScrollView
 } from "react-native";
 import styles from "../styles/SadhakasInformation_Styles";
 import CustomBottomBar from "../components/customBottomBar";
@@ -23,11 +24,10 @@ function SadhakasInformation(props) {
                 >
                 </ImageBackground>
             </View>
-            <View style={styles.header}>
-                <View style={styles.rect}>
-                    <Text style={styles.loremIpsum}>Sadhaka&#39;s Information</Text>
-                </View>
-            </View>
+            
+            <ScrollView
+          contentContainerStyle={styles.scrollArea_contentContainerStyle}>
+          <View style={styles.scrollArea}>
             <View style={styles.idblock}>
                     <Text style={styles.id1}>ID :</Text>
                     <TextInput
@@ -42,9 +42,35 @@ function SadhakasInformation(props) {
                     <TextInput placeholder="ABCDEFGHIJK" style={styles.textInput7}></TextInput>
                 </View>
             </View>
-            <View style={styles.addressblock}>
-                <Text style={styles.address1}>Address :</Text>
-                <TextInput placeholder="Flat No:123,A1 Residency,Main Road,Guntur,Andhrapradesh" style={styles.textInput6}></TextInput>
+            <View style={styles.addressBlock}>
+              <Text style={styles.address}>Address :</Text>
+              <View style = {styles.addressBlock1}>
+              <View>
+                <Text style={styles.doorNumber}>Door Number :</Text>
+                <TextInput placeholder="Flat No:123" style={styles.doorTextInput}></TextInput>
+              </View>
+              <View>
+                <Text style={styles.street}>Street/Location :</Text>
+                <TextInput placeholder="A1 Residency,Main Road" style={styles.streetTextInput}></TextInput>
+              </View>
+              <View>
+                <Text style={styles.city}>City/Town :</Text>
+                <TextInput placeholder="Guntur" style={styles.cityTextInput}></TextInput>
+              </View>
+              <View>
+                <Text style={styles.district}>District :</Text>
+                <TextInput placeholder="Guntur" style={styles.districtTextInput}></TextInput>
+              </View>
+              <View>
+                <Text style={styles.state}>State :</Text>
+                <TextInput placeholder="Andhrapradesh" style={styles.stateTextInput}></TextInput>
+              </View>
+              <View>
+                <Text style={styles.pin}>Pin Code :</Text>
+                <TextInput placeholder="522616" style={styles.pinTextInput}></TextInput>
+              </View>
+              </View>
+
             </View>
             <View style={styles.emergencycontactblock}>
                 <Text style={styles.emergencyContact1}>Emergency Contact :</Text>
@@ -72,65 +98,17 @@ function SadhakasInformation(props) {
                     <TextInput placeholder="182" style={styles.textInput11}></TextInput>
                 </View>
             </View>
-            <View style = {styles.bottomTab}>
+            
+            </View>
+        </ScrollView>
+        <View style={styles.header}>
+                <View style={styles.rect}>
+                    <Text style={styles.loremIpsum}>Sadhaka&#39;s Information</Text>
+                </View>
+            </View>
+            <View >
                 <CustomBottomBar {...props}/>
             </View>
-            {/* <View style={styles.bottomTab}>
-                <View style={styles.rect1}>
-                    <View style={styles.button5Row}>
-                        <TouchableOpacity
-                            onPress={() => props.navigation.navigate("Homepage")}
-                            style={styles.button5}
-                        >
-                            <Image
-                                source={require("../assets/images/home.png")}
-                                resizeMode="contain"
-                                style={styles.image5}
-                            ></Image>
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            onPress={() => props.navigation.navigate("Activityinfomation")}
-                            style={styles.button4}
-                        >
-                            <Image
-                                source={require("../assets/images/activity.png")}
-                                resizeMode="contain"
-                                style={styles.image4}
-                            ></Image>
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            onPress={() => props.navigation.navigate("TreatmentInfo")}
-                            style={styles.button3}
-                        >
-                            <Image
-                                source={require("../assets/images/treatment.png")}
-                                resizeMode="contain"
-                                style={styles.image3}
-                            ></Image>
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            onPress={() => props.navigation.navigate("Dietmenu")}
-                            style={styles.button2}
-                        >
-                            <Image
-                                source={require("../assets/images/dietmenu.png")}
-                                resizeMode="contain"
-                                style={styles.image2}
-                            ></Image>
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            onPress={() => props.navigation.navigate("HealthTracking")}
-                            style={styles.button1}
-                        >
-                            <Image
-                                source={require("../assets/images/healthtracking.png")}
-                                resizeMode="contain"
-                                style={styles.image1}
-                            ></Image>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-            </View> */}
         </View>
     );
 }

@@ -62,12 +62,12 @@ function SadhakasHealthTrackingInfo(props) {
           </View>
           <View style={styles.weightBlock}>
             <Text style={styles.weight}>Weight :</Text>
-            <TextInput placeholder="" style={styles.textInput4}></TextInput>
+            <TextInput placeholder="85" style={styles.textInput4}></TextInput>
             {/* <IoniconsIcon
                 name="ios-arrow-round-down"
                 style={styles.icon2}
               ></IoniconsIcon> */}
-            <View style={styles.icon2}>
+            {/* <View style={styles.icon2}>
               <Picker
                 selectedValue={weight}
                 style={{ color: "white" }}
@@ -75,16 +75,16 @@ function SadhakasHealthTrackingInfo(props) {
               >
                 {myloop}
               </Picker>
-            </View>
+            </View> */}
           </View>
           <View style={styles.heightBlock}>
             <Text style={styles.height}>Height :</Text>
-            <TextInput placeholder="" style={styles.textInput3}></TextInput>
+            <TextInput placeholder="182" style={styles.textInput3}></TextInput>
             {/* <IoniconsIcon
                 name="md-arrow-dropdown"
                 style={styles.icon3}
               ></IoniconsIcon> */}
-            <View style={styles.icon3}>
+            {/* <View style={styles.icon3}>
               <Picker
                 selectedValue={height}
                 style={{ color: "white" }}
@@ -92,24 +92,24 @@ function SadhakasHealthTrackingInfo(props) {
               >
                 {myloop}
               </Picker>
-            </View>
+            </View> */}
           </View>
           <View style={styles.bmiBlock}>
             <Text style={styles.bmi}>BMI :</Text>
             <View style={styles.textInput2Stack}>
-              <TextInput placeholder="" style={styles.textInput2}></TextInput>
+              <TextInput placeholder="50" style={styles.textInput2}></TextInput>
             </View>
           </View>
 
 
           <View style={styles.bpBlock}>
             <Text style={styles.bp}>BP :</Text>
-            <TextInput placeholder="" style={styles.textInput5}></TextInput>
+            <TextInput placeholder="120" style={styles.textInput5}></TextInput>
             {/* <IoniconsIcon
                 name="md-arrow-dropdown"
                 style={styles.icon4}
               ></IoniconsIcon> */}
-            <View style={styles.icon4}>
+            {/* <View style={styles.icon4}>
               <Picker
                 selectedValue={bp1}
                 style={{ color: "white" }}
@@ -119,13 +119,13 @@ function SadhakasHealthTrackingInfo(props) {
 
 
               </Picker>
-            </View>
-            <TextInput placeholder="" style={styles.textInput6}></TextInput>
+            </View> */}
+            <TextInput placeholder="80" style={styles.textInput6}></TextInput>
             {/* <IoniconsIcon
                 name="md-arrow-dropdown"
                 style={styles.icon5}
               ></IoniconsIcon> */}
-            <View style={styles.icon5}>
+            {/* <View style={styles.icon5}>
               <Picker
                 selectedValue={bp2}
                 style={{ color: "white" }}
@@ -135,7 +135,7 @@ function SadhakasHealthTrackingInfo(props) {
 
 
               </Picker>
-            </View>
+            </View> */}
           </View>
 
           <View style={styles.bloodTest}>
@@ -203,7 +203,7 @@ function SadhakasHealthTrackingInfo(props) {
             <View style = {styles.feedbachBlock}>
               <Text style={styles.feedback}>Feedback :</Text>
               <TextInput
-                placeholder="----Enter Your Feedback----"
+                placeholder="            ----Enter Your Feedback----          "
                 placeholderTextColor="rgba(70,31,0,1)"
                 style={styles.feedbacktextInput}
               ></TextInput>

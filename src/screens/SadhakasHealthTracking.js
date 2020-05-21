@@ -52,8 +52,7 @@ function SadhakasHealthTracking(props) {
         </View>
       </View>
       <ScrollView
-        contentContainerStyle={styles.scrollArea_contentContainerStyle}
-      >
+        contentContainerStyle={styles.scrollArea_contentContainerStyle}>
         <View style={styles.scrollArea}>
           <Text style={styles.date1}>Date :</Text>
           <View >
@@ -61,27 +60,22 @@ function SadhakasHealthTracking(props) {
               <DateTime />
             </View>
           </View>
-          <IoniconsIcon name="ios-images" style={styles.icon6}></IoniconsIcon>
+          {/* <IoniconsIcon name="ios-images" style={styles.icon6}></IoniconsIcon> */}
           <View style={styles.weightBlock}>
             <Text style={styles.weight}>Weight :</Text>
-            <View style={styles.textInput4Stack}>
-              <TextInput placeholder="" style={styles.textInput4}></TextInput>
-              <View style={styles.icon2}>
-                <Picker
+            <TextInput placeholder="Weight" style={styles.textInput4}></TextInput>
+            {/* <View style={styles.icon2}>
+              <Picker
                   selectedValue={weight}
                   style={{ color: "white" }}
                   onValueChange={(itemValue, itemIndex) => setWeight(itemValue)}
                 >
                   {myloop}
                 </Picker>
-              </View>
-
-            </View>
-          </View>
-          <View style = {styles.heightBlock}>
+            </View> */}
             <Text style={styles.height}>Height :</Text>
-            <TextInput placeholder="" style={styles.textInput3}></TextInput>
-            <View style={styles.icon3}>
+            <TextInput placeholder="Height" style={styles.textInput3}></TextInput>
+            {/* <View style={styles.icon3}>
               <Picker
                 selectedValue={height}
                 style={{ color: "white" }}
@@ -89,11 +83,13 @@ function SadhakasHealthTracking(props) {
               >
                 {myloop}
               </Picker>
-            </View>
+            </View> */}
+
           </View>
-          <View style = {styles.bmiBlock}>
+
+          <View style={styles.bmiBlock}>
             <Text style={styles.bmi}>BMI :</Text>
-              <TextInput placeholder="" style={styles.textInput2}></TextInput>
+            <TextInput placeholder="" style={styles.textInput2}></TextInput>
           </View>
           <View style={styles.bpBlock}>
             <Text style={styles.bp}>BP :</Text>
@@ -240,73 +236,22 @@ function SadhakasHealthTracking(props) {
                 <Text style={styles.back7}>Back</Text>
               </View>
             </TouchableOpacity>
-            
-              <TouchableOpacity
-                onPress={() => props.navigation.navigate("SadhakasHealthTrackingInfo")}
-                style={styles.button72}
-              >
-                <View style={styles.rect3}>
-                  <Text style={styles.confirm1}>Confirm</Text>
-                </View>
-              </TouchableOpacity>
-            
+
+            <TouchableOpacity
+              onPress={() => props.navigation.navigate("SadhakasHealthTrackingInfo")}
+              style={styles.button72}
+            >
+              <View style={styles.rect3}>
+                <Text style={styles.confirm1}>Confirm</Text>
+              </View>
+            </TouchableOpacity>
+
           </View>
         </View>
       </ScrollView>
       <View style={styles.rect2}>
-      <CustomBottomBar {...props}/>
-        {/* <View style={styles.button123Row}>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("Homepage")}
-            style={styles.button123}
-          >
-            <Image
-              source={require("../assets/images/home.png")}
-              resizeMode="contain"
-              style={styles.image2}
-            ></Image>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("Activityinfomation")}
-            style={styles.button124}
-          >
-            <Image
-              source={require("../assets/images/activity.png")}
-              resizeMode="contain"
-              style={styles.image3}
-            ></Image>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("TreatmentInfo")}
-            style={styles.button125}
-          >
-            <Image
-              source={require("../assets/images/treatment.png")}
-              resizeMode="contain"
-              style={styles.image4}
-            ></Image>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("Dietmenu")}
-            style={styles.button126}
-          >
-            <Image
-              source={require("../assets/images/dietmenu.png")}
-              resizeMode="contain"
-              style={styles.image5}
-            ></Image>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => props.navigation.navigate("HealthTracking")}
-            style={styles.button127}
-          >
-            <Image
-              source={require("../assets/images/healthtracking.png")}
-              resizeMode="contain"
-              style={styles.image6}
-            ></Image>
-          </TouchableOpacity>
-        </View> */}
+        <CustomBottomBar {...props} />
+        
       </View>
     </View>
   );

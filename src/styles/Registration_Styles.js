@@ -7,245 +7,378 @@ const styles = StyleSheet.create({
       backgroundColor: "rgba(175,106,37,1)"
     },
     image: {
-      width: 365,
+      width: wp('100%'),
       height: 399,
-      marginTop: 200,
-      marginLeft: 1,
-      position: "absolute"
+      marginTop: hp('31.2500%'),
+      marginLeft: wp('0.2777%'),
+      position: "absolute" 
     },
     image_imageStyle: {
       opacity: 0.2
     },
-    rect: {
-      top: 30,
-      left: 20,
-      width: 321,
-      height: 55,
+    react1: {
+      top: hp('4.6875%'),
+      left: wp('5.5555%'),
+      width: wp('89.1666%'),
+      height: hp('8.5937%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       position: "absolute",
       borderRadius: 40,
       borderColor: "#000000",
       borderWidth: 0
     },
-    regHeading: {
-      width: 267,
-      height: 35,
+    regHeading1: {
+      width: wp('74.1666%'),
+      height: hp('5.4687%'),
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 22,
       fontFamily: "roboto-700",
-      marginTop: 10,
-      marginLeft: 27
+      marginTop: hp('1.5625%'),
+      marginLeft: wp('7.50%'),
+      textAlign : "center"
+    },
+    scrollArea: {
+      width: wp('100%'),
+      // backgroundColor: "#AF6A25",
+      overflow: "hidden",
+      flex: 1,
+      //marginBottom: -2969,
+      marginTop: hp('0.7812%'),
+      marginLeft: wp('2.7777%'),
+      //fontSize : 25
+    },
+    scrollArea_contentContainerStyle: {
+      width: wp('100%'),
+      height: hp('195.9375%'),
+      flexDirection: "column",
     },
     idBlock : {
-      top: 90,
+      top: hp('16.0625%'),
       flexDirection : "row"
     },
     id: {
-      left: 15,
-      width: 38,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('10.5555%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     idTextInput: {
-      top: 2,
-      left: 20,
-      width: 127,
-      height: 30,
+      top: hp('-2.7812'),
+      left: 15,
+      width: wp('35.2777%'),
+      height: hp('6.2500%'),
       color: "#121212",
       borderColor: "rgba(250,246,246,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     nameBlock : {
-      top: 95,
+      top: hp('16.4062%'),
       flexDirection : "row"
     },
     name: {
-      left: 15,
-      width: 83,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('17.0555%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     nameTextInput: {
-      top: 2,
-      left: 15,
-      width: 250,
-      height: 30,
+      top: hp('-2.7812%'),
+      left: wp('4.1666%'),
+      width: wp('69.4444%'),
+      height: hp('6.2500%'),
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(250,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     addressBlock : {
-      top: 100,
+      top: hp('17.1875%'),
     },
     address: {
-      left: 15,
-      width: 111,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('30.8333%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
-    addressTextInput: {
-      left: 15,
-      width: 330,
-      height: 50,
+    addressBlock1 : {
+        top : hp('1.5625%')
+    },
+    doorNumber: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    doorTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(252,246,246,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
-    emargencyBlock :{
-      top: 105,
-    },
-    emergencyContact: {
-      left: 15,
-      width: 243,
-      height: 35,
+    street: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    streetTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
+      color: "#121212",
+      //position: "absolute",
+      borderColor: "rgba(252,246,246,1)",
+      borderWidth: 0,
+      borderBottomWidth: 2,
+      fontFamily: "roboto-regular",
+      fontSize : 18
+    },
+    city: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    cityTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
+      color: "#121212",
+      //position: "absolute",
+      borderColor: "rgba(252,246,246,1)",
+      borderWidth: 0,
+      borderBottomWidth: 2,
+      fontFamily: "roboto-regular",
+      fontSize : 18
+    },
+    district: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    districtTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
+      color: "#121212",
+      //position: "absolute",
+      borderColor: "rgba(252,246,246,1)",
+      borderWidth: 0,
+      borderBottomWidth: 2,
+      fontFamily: "roboto-regular",
+      fontSize : 18
+    },
+    state: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    stateTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
+      color: "#121212",
+      //position: "absolute",
+      borderColor: "rgba(252,246,246,1)",
+      borderWidth: 0,
+      borderBottomWidth: 2,
+      fontFamily: "roboto-regular",
+      fontSize : 18
+    },
+    pin: {
+      left: wp('4.1666%'),
+      width: wp('55.5555%'),
+      height: hp('4.2187%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
+      fontFamily: "roboto-700"
+    },
+    pinTextInput: {
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.81%'),
+      color: "#121212",
+      //position: "absolute",
+      borderColor: "rgba(252,246,246,1)",
+      borderWidth: 0,
+      borderBottomWidth: 2,
+      fontFamily: "roboto-regular",
+      fontSize : 18
+    },
+    emargencyBlock :{
+      top: hp('18.7500%'),
+    },
+    emergencyContact: {
+      left: wp('4.1666%'),
+      width: wp('67.50%'),
+      height: hp('5.4687%'),
+      color: "rgba(70,31,0,1)",
+      //position: "absolute",
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput69: {
       //top: 10,
-      left: 15,
-      width: 330,
-      height: 30,
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.8125%'),
       color: "#121212",
      // position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20,
+      fontSize : 18,
     },
     contactBlock : {
-      top: 110,
+      top: hp('19.5312%'),
     },
     contactNumber: {
-      left: 15,
-      width: 206,
-      height: 30,
+      left: wp('4.1666%'),
+      width: wp('57.2222%'),
+      height: hp('4.6875%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput10: {
      // top: 10,
-      left: 15,
-      width: 330,
-      height: 30,
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.8125%'),
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20,
+      fontSize : 18,
     },
     roomBlock :{
-      top: 115,
+      top: hp('20.3125%'),
     },
     roomNumber: {
-      left: 15,
-      width: 271,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('75.2777%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
      // position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput11: {
       //top: 10,
-      left: 15,
-      width: 330,
-      height: 35,
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.8125%'),
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     icon4: {
-      top : -30,
+      top : hp('-4.6875%'),
       color: "rgba(248,244,244,1)",
       fontSize: 25,
-      height: 30,
-      width: 30,
+      height: hp('4.6875%'),
+      width: wp('8.3333%'),
      // marginTop: 212,
       marginLeft: 318
     },
     passwordBlock : {
-      top: 90,
+      top: hp('21.0937%'),
     },
     password: {
-      left: 15,
-      width: 129,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('35.8333%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput: {
       //top: 10,
-      left: 15,
-      width: 330,
-      height: 30,
+      left: wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.8125%'),
       color: "#121212",
       //position: "absolute",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     confirmPSWBlock : {
-      top: 95,
+      top: hp('21.0937%'),
     },
     confirmPassword: {
-      left: 15,
-      width: 230,
-      height: 27,
+      left: wp('4.1666%'),
+      width: wp('63.8888%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
       //position: "absolute",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700"
     },
     textInput12: {
      // top : 15,
-      left : 15,
-      width: 330,
-      height: 30,
+      left : wp('4.1666%'),
+      width: wp('91.6666%'),
+      height: hp('7.8125%'),
       color: "#121212",
       borderColor: "rgba(248,244,244,1)",
       borderWidth: 0,
       borderBottomWidth: 2,
       fontFamily: "roboto-regular",
-      fontSize : 20
+      fontSize : 18
     },
     attachProfilePhotoColumnRow: {
-      top : 100,
-      left : 15,
+      top : hp('21.8750%'),
+      left : wp('4.1666%'),
       //height: 81,
       flexDirection: "row",
       //marginTop: 5,
@@ -253,12 +386,12 @@ const styles = StyleSheet.create({
       //marginRight: 34
     },
     attachProfilePhoto: {
-      width: 250,
-      height: 27,
+      width: wp('69.4444%'),
+      height: hp('4.2187%'),
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700",
-      marginLeft: 3
+      marginLeft: wp('0.83333%')
     },
     icon2: {
       color: "rgba(70,31,0,1)",
@@ -266,9 +399,9 @@ const styles = StyleSheet.create({
     },
 
     agreeBlock: {
-      top : 100,
-      left : 15,
-      height: 30,
+      top : hp('22.6562%'),
+      left : wp('4.1666%'),
+      height: hp('4.6875%'),
       flexDirection: "row",
       //marginTop: 6,
       //marginRight: 49
@@ -278,18 +411,18 @@ const styles = StyleSheet.create({
       fontSize: 30
     },
     iAgreeTc: {
-      top : -5,
-      width: 152,
-      height: 32,
+      top : hp('-0.7812%'),
+      width: wp('42.2222%'),
+      height: hp('5.00%'),
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700",
-      marginLeft: 12,
+      marginLeft: wp('3.3333%'),
       //marginTop: 8
     },
     backandconfirmBlock: {
-      top : 105,
-      left : 35,
+      top : hp('24.2187%'),
+      left : wp('9.7222%'),
       //height: 49,
       flexDirection: "row",
     },
@@ -298,37 +431,37 @@ const styles = StyleSheet.create({
       //height: 49
     },
     rect2: {
-      width: 132,
-      height: 40,
+      width: wp('36.6666%'),
+      height: hp('6.2500%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40
     },
     back: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700",
-      //marginTop: 7,
+      marginTop: 7,
       alignItems : "center",
-      marginLeft: 38
+      marginLeft: wp('13.5555%')
     },
     button3: {
-      width: 138,
-      height: 49,
-      marginLeft: 15
+      width: wp('38.3333%'),
+      height: hp('10.6562%'),
+      marginLeft: wp('6.1666%')
     },
     rect3: {
-      width: 132,
-      height: 40,
+      width: wp('36.6666%'),
+      height: hp('6.2500%'),
       backgroundColor: "rgba(230, 230, 230,1)",
       borderRadius: 40
     },
     confirm15: {
       color: "rgba(70,31,0,1)",
-      fontSize: 25,
+      fontSize: 18,
       fontFamily: "roboto-700",
-      //marginTop: 7,
+      marginTop: 7,
       alignItems : "center",
-      marginLeft: 24
+      marginLeft: wp('10.6666%')
     },
 
 
@@ -343,9 +476,9 @@ const styles = StyleSheet.create({
 
 
     textInput13: {
-      top: 331,
-      left: 32,
-      width: 313,
+      top: hp('51.7187%'),
+      left: wp('8.8888%'),
+      width: wp('86.9444%'),
       height: 25,
       color: "#121212",
       position: "absolute",
@@ -357,9 +490,9 @@ const styles = StyleSheet.create({
     
     
     textInputStack: {
-      top: 132,
-      left: 5,
-      width: 292,
+      top: hp('20.6250%'),
+      left: wp('1.3888%'),
+      width: wp('81.1111%'),
       height: 27,
       position: "absolute"
     },
@@ -369,11 +502,11 @@ const styles = StyleSheet.create({
     
     
     attachProfilePhotoColumn: {
-      width: 253,
+      width: wp('70.2777%'),
       marginTop: 8
     },
     group: {
-      width: 45,
+      width: wp('12.0000%'),
       height: 43,
       marginLeft: 14
     },
